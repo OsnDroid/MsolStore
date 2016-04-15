@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3FC776E91CC0851C00F52B16 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC776E81CC0851C00F52B16 /* main.m */; };
+		3FC776EC1CC0851C00F52B16 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC776EB1CC0851C00F52B16 /* AppDelegate.m */; };
+		3FC776EF1CC0851C00F52B16 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC776EE1CC0851C00F52B16 /* ViewController.m */; };
+		3FC776F21CC0851C00F52B16 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FC776F01CC0851C00F52B16 /* Main.storyboard */; };
+		3FC776F41CC0851C00F52B16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FC776F31CC0851C00F52B16 /* Assets.xcassets */; };
+		3FC776F71CC0851C00F52B16 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FC776F51CC0851C00F52B16 /* LaunchScreen.storyboard */; };
+		3FC777021CC0851C00F52B16 /* MsolStoreTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC777011CC0851C00F52B16 /* MsolStoreTests.m */; };
+		3FC7770D1CC0851C00F52B16 /* MsolStoreUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC7770C1CC0851C00F52B16 /* MsolStoreUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3FC776FE1CC0851C00F52B16 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FC776DC1CC0851C00F52B16 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FC776E31CC0851C00F52B16;
+			remoteInfo = MsolStore;
+		};
+		3FC777091CC0851C00F52B16 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FC776DC1CC0851C00F52B16 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FC776E31CC0851C00F52B16;
+			remoteInfo = MsolStore;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3FC776E41CC0851C00F52B16 /* MsolStore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MsolStore.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FC776E81CC0851C00F52B16 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3FC776EA1CC0851C00F52B16 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3FC776EB1CC0851C00F52B16 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3FC776ED1CC0851C00F52B16 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3FC776EE1CC0851C00F52B16 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3FC776F11CC0851C00F52B16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3FC776F31CC0851C00F52B16 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3FC776F61CC0851C00F52B16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3FC776F81CC0851C00F52B16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FC776FD1CC0851C00F52B16 /* MsolStoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MsolStoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FC777011CC0851C00F52B16 /* MsolStoreTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MsolStoreTests.m; sourceTree = "<group>"; };
+		3FC777031CC0851C00F52B16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FC777081CC0851C00F52B16 /* MsolStoreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MsolStoreUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FC7770C1CC0851C00F52B16 /* MsolStoreUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MsolStoreUITests.m; sourceTree = "<group>"; };
+		3FC7770E1CC0851C00F52B16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3FC776E11CC0851C00F52B16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FC776FA1CC0851C00F52B16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FC777051CC0851C00F52B16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3FC776DB1CC0851C00F52B16 = {
+			isa = PBXGroup;
+			children = (
+				3FC776E61CC0851C00F52B16 /* MsolStore */,
+				3FC777001CC0851C00F52B16 /* MsolStoreTests */,
+				3FC7770B1CC0851C00F52B16 /* MsolStoreUITests */,
+				3FC776E51CC0851C00F52B16 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3FC776E51CC0851C00F52B16 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3FC776E41CC0851C00F52B16 /* MsolStore.app */,
+				3FC776FD1CC0851C00F52B16 /* MsolStoreTests.xctest */,
+				3FC777081CC0851C00F52B16 /* MsolStoreUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3FC776E61CC0851C00F52B16 /* MsolStore */ = {
+			isa = PBXGroup;
+			children = (
+				3FC776EA1CC0851C00F52B16 /* AppDelegate.h */,
+				3FC776EB1CC0851C00F52B16 /* AppDelegate.m */,
+				3FC776ED1CC0851C00F52B16 /* ViewController.h */,
+				3FC776EE1CC0851C00F52B16 /* ViewController.m */,
+				3FC776F01CC0851C00F52B16 /* Main.storyboard */,
+				3FC776F31CC0851C00F52B16 /* Assets.xcassets */,
+				3FC776F51CC0851C00F52B16 /* LaunchScreen.storyboard */,
+				3FC776F81CC0851C00F52B16 /* Info.plist */,
+				3FC776E71CC0851C00F52B16 /* Supporting Files */,
+			);
+			path = MsolStore;
+			sourceTree = "<group>";
+		};
+		3FC776E71CC0851C00F52B16 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3FC776E81CC0851C00F52B16 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3FC777001CC0851C00F52B16 /* MsolStoreTests */ = {
+			isa = PBXGroup;
+			children = (
+				3FC777011CC0851C00F52B16 /* MsolStoreTests.m */,
+				3FC777031CC0851C00F52B16 /* Info.plist */,
+			);
+			path = MsolStoreTests;
+			sourceTree = "<group>";
+		};
+		3FC7770B1CC0851C00F52B16 /* MsolStoreUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3FC7770C1CC0851C00F52B16 /* MsolStoreUITests.m */,
+				3FC7770E1CC0851C00F52B16 /* Info.plist */,
+			);
+			path = MsolStoreUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3FC776E31CC0851C00F52B16 /* MsolStore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FC777111CC0851C00F52B16 /* Build configuration list for PBXNativeTarget "MsolStore" */;
+			buildPhases = (
+				3FC776E01CC0851C00F52B16 /* Sources */,
+				3FC776E11CC0851C00F52B16 /* Frameworks */,
+				3FC776E21CC0851C00F52B16 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MsolStore;
+			productName = MsolStore;
+			productReference = 3FC776E41CC0851C00F52B16 /* MsolStore.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3FC776FC1CC0851C00F52B16 /* MsolStoreTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FC777141CC0851C00F52B16 /* Build configuration list for PBXNativeTarget "MsolStoreTests" */;
+			buildPhases = (
+				3FC776F91CC0851C00F52B16 /* Sources */,
+				3FC776FA1CC0851C00F52B16 /* Frameworks */,
+				3FC776FB1CC0851C00F52B16 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3FC776FF1CC0851C00F52B16 /* PBXTargetDependency */,
+			);
+			name = MsolStoreTests;
+			productName = MsolStoreTests;
+			productReference = 3FC776FD1CC0851C00F52B16 /* MsolStoreTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3FC777071CC0851C00F52B16 /* MsolStoreUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FC777171CC0851C00F52B16 /* Build configuration list for PBXNativeTarget "MsolStoreUITests" */;
+			buildPhases = (
+				3FC777041CC0851C00F52B16 /* Sources */,
+				3FC777051CC0851C00F52B16 /* Frameworks */,
+				3FC777061CC0851C00F52B16 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3FC7770A1CC0851C00F52B16 /* PBXTargetDependency */,
+			);
+			name = MsolStoreUITests;
+			productName = MsolStoreUITests;
+			productReference = 3FC777081CC0851C00F52B16 /* MsolStoreUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3FC776DC1CC0851C00F52B16 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = IoCan;
+				TargetAttributes = {
+					3FC776E31CC0851C00F52B16 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					3FC776FC1CC0851C00F52B16 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 3FC776E31CC0851C00F52B16;
+					};
+					3FC777071CC0851C00F52B16 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 3FC776E31CC0851C00F52B16;
+					};
+				};
+			};
+			buildConfigurationList = 3FC776DF1CC0851C00F52B16 /* Build configuration list for PBXProject "MsolStore" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3FC776DB1CC0851C00F52B16;
+			productRefGroup = 3FC776E51CC0851C00F52B16 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3FC776E31CC0851C00F52B16 /* MsolStore */,
+				3FC776FC1CC0851C00F52B16 /* MsolStoreTests */,
+				3FC777071CC0851C00F52B16 /* MsolStoreUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3FC776E21CC0851C00F52B16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FC776F71CC0851C00F52B16 /* LaunchScreen.storyboard in Resources */,
+				3FC776F41CC0851C00F52B16 /* Assets.xcassets in Resources */,
+				3FC776F21CC0851C00F52B16 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FC776FB1CC0851C00F52B16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FC777061CC0851C00F52B16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3FC776E01CC0851C00F52B16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FC776EF1CC0851C00F52B16 /* ViewController.m in Sources */,
+				3FC776EC1CC0851C00F52B16 /* AppDelegate.m in Sources */,
+				3FC776E91CC0851C00F52B16 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FC776F91CC0851C00F52B16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FC777021CC0851C00F52B16 /* MsolStoreTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FC777041CC0851C00F52B16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FC7770D1CC0851C00F52B16 /* MsolStoreUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3FC776FF1CC0851C00F52B16 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FC776E31CC0851C00F52B16 /* MsolStore */;
+			targetProxy = 3FC776FE1CC0851C00F52B16 /* PBXContainerItemProxy */;
+		};
+		3FC7770A1CC0851C00F52B16 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FC776E31CC0851C00F52B16 /* MsolStore */;
+			targetProxy = 3FC777091CC0851C00F52B16 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3FC776F01CC0851C00F52B16 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FC776F11CC0851C00F52B16 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3FC776F51CC0851C00F52B16 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FC776F61CC0851C00F52B16 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3FC7770F1CC0851C00F52B16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3FC777101CC0851C00F52B16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3FC777121CC0851C00F52B16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MsolStore/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iocan.MsolStore;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3FC777131CC0851C00F52B16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MsolStore/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iocan.MsolStore;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3FC777151CC0851C00F52B16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MsolStoreTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iocan.MsolStoreTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MsolStore.app/MsolStore";
+			};
+			name = Debug;
+		};
+		3FC777161CC0851C00F52B16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MsolStoreTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iocan.MsolStoreTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MsolStore.app/MsolStore";
+			};
+			name = Release;
+		};
+		3FC777181CC0851C00F52B16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MsolStoreUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iocan.MsolStoreUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MsolStore;
+			};
+			name = Debug;
+		};
+		3FC777191CC0851C00F52B16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MsolStoreUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iocan.MsolStoreUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MsolStore;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3FC776DF1CC0851C00F52B16 /* Build configuration list for PBXProject "MsolStore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FC7770F1CC0851C00F52B16 /* Debug */,
+				3FC777101CC0851C00F52B16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FC777111CC0851C00F52B16 /* Build configuration list for PBXNativeTarget "MsolStore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FC777121CC0851C00F52B16 /* Debug */,
+				3FC777131CC0851C00F52B16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3FC777141CC0851C00F52B16 /* Build configuration list for PBXNativeTarget "MsolStoreTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FC777151CC0851C00F52B16 /* Debug */,
+				3FC777161CC0851C00F52B16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3FC777171CC0851C00F52B16 /* Build configuration list for PBXNativeTarget "MsolStoreUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FC777181CC0851C00F52B16 /* Debug */,
+				3FC777191CC0851C00F52B16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3FC776DC1CC0851C00F52B16 /* Project object */;
+}
