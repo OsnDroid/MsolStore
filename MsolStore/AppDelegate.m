@@ -17,6 +17,8 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    [application setStatusBarStyle:UIStatusBarStyleLightContent];//设置全局状态栏颜色
+    [application setStatusBarHidden:NO]; //启动的时候设置显示, 启动后要打开
     return YES;
 }
 

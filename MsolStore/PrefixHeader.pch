@@ -1,0 +1,24 @@
+//
+//  PrefixHeader.pch
+//  MsolStore
+//
+//  Created by IoCan on 16/4/15.
+//  Copyright © 2016年 IoCan. All rights reserved.
+//
+
+//只在debug下才输出日志, 在程序运行时取消log
+#ifdef DEBUG
+#define MyLog(...)  NSLog(__VA_ARGS__)
+#else
+#define MyLog(...)
+#endif
+
+//获取设备的物理高度
+#define ScreenHeight [UIScreen mainScreen].bounds.size.height
+
+//获取设备的物理宽度
+#define ScreenWidth [UIScreen mainScreen].bounds.size.width
+
+#define RGBA(R/*红*/, G/*绿*/, B/*蓝*/, A/*透明*/) \
+[UIColor colorWithRed:R/255.f green:G/255.f blue:B/255.f alpha:A]
+

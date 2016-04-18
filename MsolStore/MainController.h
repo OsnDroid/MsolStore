@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  MainController.h
 //  MsolStore
 //
 //  Created by hlkj-mbpro on 16/4/15.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface MainController : UITabBarController
 
 @end
-
