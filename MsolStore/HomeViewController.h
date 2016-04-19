@@ -8,6 +8,10 @@
 
 #import "BaseViewController.h"
 
-@interface HomeViewController : BaseViewController
+@interface HomeViewController : BaseViewController<UICollectionViewDataSource,UICollectionViewDelegate>
+
+
+@property (weak, nonatomic) IBOutlet UICollectionView *collectionView;
+@property (strong, nonatomic) NSMutableArray *data;//数据源
 
 @end

@@ -1,0 +1,68 @@
+﻿html{font-family:"微软雅黑",Arial,sans-serif}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,form,fieldset,input,button,textarea,p,th,td{padding:0;margin:0;}
+body,html{
+    width: 100%;
+    background-color: #FFF;
+    font-size: 12px;
+	height: 100%;
+	overflow:hidden;
+}
+a{
+	text-decoration: none;
+}
+@media screen and (min-width:321px ){
+    body{
+        font-size: 14px;
+    }
+}
+@media screen and (min-width:376px ){
+    body{
+        font-size: 16px;
+    }
+}
+.top-div{
+	width:100%;
+	margin-top:5%;
+	border-top:1px solid #c3c1c1;
+	border-bottom:1px solid #c3c1c1;
+}
+.but1-div{
+	width:50%;
+	position:absolute;
+	text-align:center;
+	margin-top:4%;
+	padding-top:6%;
+	padding-bottom:4%;
+	border-right:1px solid #c3c1c1;
+}
+.but2-div{
+	width:50%;
+	padding-left:50%;
+	text-align:center;
+	padding-top:10%;
+	padding-bottom:8%;
+	
+}
+.but-img{
+	width:50%;
+}
+.top-div-p{
+	margin-top:5%;
+	letter-spacing:1px;
+	font-size:110%;
+	color:#666;
+}
+.t-p{
+	color:#37abf4;
+	font-size:110%;
+	margin-top:7%;
+	margin-left:7%;
+	margin-bottom:3%;
+}
+.n-p{
+	font-size:100%;
+	color:#666;
+	width:86%;
+	margin-left:7%;
+	margin-top:2%;
+}

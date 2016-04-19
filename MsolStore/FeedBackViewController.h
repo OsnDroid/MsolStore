@@ -7,11 +7,12 @@
 //
 
 #import "BaseViewController.h"
+#import "UIPlaceholderTextView.h"
 
 @interface FeedBackViewController : BaseViewController<UITextViewDelegate>
 
 @property (weak, nonatomic) IBOutlet UITextField *tv_link;
-@property (weak, nonatomic) IBOutlet UITextView *tv_content;
+@property (weak, nonatomic) IBOutlet UIPlaceholderTextView *tv_content;
 
 
 - (IBAction)submit:(id)sender;

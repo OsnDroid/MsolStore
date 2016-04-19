@@ -11,6 +11,8 @@
 #import "IcButton.h"
 #import "MyProfileViewController.h"
 #import "FeedBackViewController.h"
+#import "LoginViewController.h"
+#import "AppDelegate.h"
 
 
 @interface MineViewController ()
@@ -109,8 +111,42 @@
 
 //注销
 -(void)logout:(id)sender{
-    MyLog(@"-------",nil);
+    UIActionSheet *actionSheet = [[UIActionSheet alloc] initWithTitle:@"注销后将会移除本地缓存历史数据，下次登录将会加载最新数据。" delegate:self cancelButtonTitle:@"取消" destructiveButtonTitle:@"注销" otherButtonTitles:nil, nil];
+    actionSheet.tag = 200;
+    [actionSheet showInView:[UIApplication sharedApplication].keyWindow];
+
 }
+
+#pragma mark -UIActionSheet delegate
+-(void)actionSheet:(UIActionSheet *)actionSheet clickedButtonAtIndex:(NSInteger)buttonIndex{
+    if (actionSheet.tag == 200) {
+        if (buttonIndex == 0) {
+            [self toast:self.view cotent:@"注销成功"];
+//            [UserInfoManager clear];
+//            [UserInfoManager updateWithObject:@"100" forKey:ican_isfirst];
+            LoginViewController *loginCtrl = [[LoginViewController alloc] init];
+            AppDelegate *deleteview =  (AppDelegate *)[UIApplication sharedApplication].delegate;
+            deleteview.window.rootViewController = loginCtrl;
+        }
+        if (buttonIndex == 1) {
+            
+        }
+    }
+    
+    
+}
+
+
+#pragma mark - 消息提示
+-(void)toast:(UIView *) view cotent:(NSString *) param{
+    _toast = [[MBProgressHUD alloc] initWithView:view];
+    _toast.labelText = param;
+    _toast.mode = MBProgressHUDModeText;
+    [self.view addSubview:_toast];
+    [_toast show:YES];
+    [_toast hide:YES afterDelay:2];
+}
+
 
 
 - (void)didReceiveMemoryWarning {

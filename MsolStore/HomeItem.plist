@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+   HomeItem.plist
+   MsolStore
+
+   Created by IoCan on 16/4/19.
+   Copyright (c) 2016年 IoCan. All rights reserved.
+-->
+<plist version="1.0">
+    <array>
+        
+        <dict>
+            <key>icon</key>
+            <string>index_icon13</string>
+            <key>title</key>
+            <string>融合套餐</string>
+        </dict>
+        <dict>
+            <key>icon</key>
+            <string>index_icon09</string>
+            <key>title</key>
+            <string>号码办理</string>
+        </dict>
+        <dict>
+            <key>icon</key>
+            <string>index_icon01</string>
+            <key>title</key>
+            <string>ITV加装</string>
+        </dict>
+        <dict>
+            <key>icon</key>
+            <string>index_icon04</string>
+            <key>title</key>
+            <string>3G升4G</string>
+        </dict>
+        <dict>
+            <key>icon</key>
+            <string>index_icon02</string>
+            <key>title</key>
+            <string>宽带提速</string>
+        </dict>
+        <dict>
+            <key>icon</key>
+            <string>index_icon03</string>
+            <key>title</key>
+            <string>资源查询</string>
+        </dict>
+        <dict>
+            <key>icon</key>
+            <string>index_icon11</string>
+            <key>title</key>
+            <string>快速查询</string>
+        </dict>
+        <dict>
+            <key>icon</key>
+            <string>index_icon12</string>
+            <key>title</key>
+            <string>结对营业厅</string>
+        </dict>
+        <dict>
+            <key>icon</key>
+            <string>index_icon08</string>
+            <key>title</key>
+            <string>产品仓库</string>
+        </dict>
+        <dict>
+            <key>icon</key>
+            <string>index_icon05</string>
+            <key>title</key>
+            <string>实名制补录</string>
+        </dict>
+        <dict>
+            <key>icon</key>
+            <string></string>
+            <key>title</key>
+            <string></string>
+        </dict>
+        <dict>
+            <key>icon</key>
+            <string></string>
+            <key>title</key>
+            <string></string>
+        </dict>
+        
+    </array>
+
+</plist>

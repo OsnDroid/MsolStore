@@ -6,6 +6,18 @@
 //  Copyright © 2016年 IoCan. All rights reserved.
 //
 
+
+
+ 
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import <QuartzCore/QuartzCore.h>
+#import <SystemConfiguration/SystemConfiguration.h>
+#import <MobileCoreServices/MobileCoreServices.h>
+
+#import "UIViewExt.h"
+#import "UIView+ClickActions.h"
+
 //只在debug下才输出日志, 在程序运行时取消log
 #ifdef DEBUG
 #define MyLog(...)  NSLog(__VA_ARGS__)

@@ -26,32 +26,32 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
- 
-    self.tv_link.textColor = [UIColor lightGrayColor];
+// 
+//    self.tv_link.textColor = [UIColor lightGrayColor];
     self.tv_link.layer.borderColor = UIColor.lightGrayColor.CGColor;
     self.tv_link.layer.borderWidth = 0.4;
     self.tv_link.layer.cornerRadius = 6;
     self.tv_link.layer.masksToBounds = YES;
   
     
-    self.tv_content.delegate = self;
-    self.tv_content.textColor = [UIColor lightGrayColor];
+ 
+    self.tv_content.textColor = RGBA(170, 170, 170, 0.6);
     self.tv_content.layer.borderColor = UIColor.lightGrayColor.CGColor;
     self.tv_content.layer.borderWidth = 0.4;
     self.tv_content.layer.cornerRadius = 6;
     self.tv_content.layer.masksToBounds = YES;
-
+    self.tv_content.placeholder = @"请留下您宝贵的意见或建议，一旦被采纳，您将有机会获得惊喜奖品";
 
     
 }
 
-#pragma mark -  txt代理实现
--(BOOL)textViewShouldBeginEditing:(UITextView *)textView {
-    self.tv_content.text=@"";
-    self.tv_content.textColor = [UIColor blackColor];
-    return YES;
-    
-}
+//#pragma mark -  txt代理实现
+//-(BOOL)textViewShouldBeginEditing:(UITextView *)textView {
+//    self.tv_content.text=@"";
+//    self.tv_content.textColor = [UIColor blackColor];
+//    return YES;
+//    
+//}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

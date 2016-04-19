@@ -20,6 +20,14 @@
     // Do any additional setup after loading the view.
 }
 
+
+-(void) prop {
+    UIAlertView *alter = [[UIAlertView alloc] initWithTitle:@"提示" message:@"功能开发中，敬请期待..." delegate:nil cancelButtonTitle:@"确定" otherButtonTitles:nil];
+    [alter show];
+    
+}
+
+
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.

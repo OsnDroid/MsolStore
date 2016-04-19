@@ -7,6 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F642BA61CC5BF90006C9064 /* UIPlaceholderTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F642BA51CC5BF90006C9064 /* UIPlaceholderTextView.m */; };
+		3F642BA81CC5C3C9006C9064 /* HomeItem.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F642BA71CC5C3C9006C9064 /* HomeItem.plist */; };
+		3F642BAC1CC5C682006C9064 /* HomeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F642BAA1CC5C682006C9064 /* HomeCell.m */; };
+		3F642BAD1CC5C682006C9064 /* HomeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F642BAB1CC5C682006C9064 /* HomeCell.xib */; };
+		3F642BB51CC60D83006C9064 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F642BB31CC60D83006C9064 /* WebViewController.m */; };
+		3F642BB61CC60D83006C9064 /* WebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F642BB41CC60D83006C9064 /* WebViewController.xib */; };
+		3F642BCE1CC61598006C9064 /* 3up4.css in Resources */ = {isa = PBXBuildFile; fileRef = 3F642BB81CC61598006C9064 /* 3up4.css */; };
+		3F642BCF1CC61598006C9064 /* 3up4.html in Resources */ = {isa = PBXBuildFile; fileRef = 3F642BB91CC61598006C9064 /* 3up4.html */; };
+		3F642BD01CC61598006C9064 /* index.css in Resources */ = {isa = PBXBuildFile; fileRef = 3F642BBB1CC61598006C9064 /* index.css */; };
+		3F642BD11CC61598006C9064 /* add.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F642BBD1CC61598006C9064 /* add.png */; };
+		3F642BD21CC61598006C9064 /* huanka.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F642BBE1CC61598006C9064 /* huanka.png */; };
+		3F642BD31CC61598006C9064 /* jihuo.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F642BBF1CC61598006C9064 /* jihuo.png */; };
+		3F642BD41CC61598006C9064 /* map.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F642BC01CC61598006C9064 /* map.png */; };
+		3F642BD51CC61598006C9064 /* paychaxun_but_01.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F642BC11CC61598006C9064 /* paychaxun_but_01.png */; };
+		3F642BD61CC61598006C9064 /* paychaxun_but_02.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F642BC21CC61598006C9064 /* paychaxun_but_02.png */; };
+		3F642BD71CC61598006C9064 /* paychaxun_but_03.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F642BC31CC61598006C9064 /* paychaxun_but_03.png */; };
+		3F642BD81CC61598006C9064 /* paychaxun_but_04.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F642BC41CC61598006C9064 /* paychaxun_but_04.png */; };
+		3F642BD91CC61598006C9064 /* jquery.js in Resources */ = {isa = PBXBuildFile; fileRef = 3F642BC61CC61598006C9064 /* jquery.js */; };
+		3F642BDA1CC61598006C9064 /* zepto.js in Resources */ = {isa = PBXBuildFile; fileRef = 3F642BC71CC61598006C9064 /* zepto.js */; };
+		3F642BDB1CC61598006C9064 /* map.css in Resources */ = {isa = PBXBuildFile; fileRef = 3F642BC81CC61598006C9064 /* map.css */; };
+		3F642BDC1CC61598006C9064 /* map.html in Resources */ = {isa = PBXBuildFile; fileRef = 3F642BC91CC61598006C9064 /* map.html */; };
+		3F642BDD1CC61598006C9064 /* paychaxun.css in Resources */ = {isa = PBXBuildFile; fileRef = 3F642BCA1CC61598006C9064 /* paychaxun.css */; };
+		3F642BDE1CC61598006C9064 /* paychaxun.html in Resources */ = {isa = PBXBuildFile; fileRef = 3F642BCB1CC61598006C9064 /* paychaxun.html */; };
+		3F642BDF1CC61598006C9064 /* ShareSDK.xml in Resources */ = {isa = PBXBuildFile; fileRef = 3F642BCC1CC61598006C9064 /* ShareSDK.xml */; };
+		3F642BE01CC61598006C9064 /* success.html in Resources */ = {isa = PBXBuildFile; fileRef = 3F642BCD1CC61598006C9064 /* success.html */; };
+		3F642BE51CC6206B006C9064 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F642BE31CC6206B006C9064 /* LoginViewController.m */; };
+		3F642BE61CC6206B006C9064 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F642BE41CC6206B006C9064 /* LoginViewController.xib */; };
+		3F642BEA1CC62083006C9064 /* ResetPasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F642BE81CC62083006C9064 /* ResetPasswordViewController.m */; };
+		3F642BEB1CC62083006C9064 /* ResetPasswordViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F642BE91CC62083006C9064 /* ResetPasswordViewController.xib */; };
+		3F642BEF1CC6209A006C9064 /* ResetPasswordNextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F642BED1CC6209A006C9064 /* ResetPasswordNextViewController.m */; };
+		3F642BF01CC6209A006C9064 /* ResetPasswordNextViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F642BEE1CC6209A006C9064 /* ResetPasswordNextViewController.xib */; };
+		3F642BF41CC620BA006C9064 /* ResetPasswordSuccessViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F642BF21CC620BA006C9064 /* ResetPasswordSuccessViewController.m */; };
+		3F642BF51CC620BA006C9064 /* ResetPasswordSuccessViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F642BF31CC620BA006C9064 /* ResetPasswordSuccessViewController.xib */; };
+		3F642BF71CC62494006C9064 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F642BF61CC62494006C9064 /* JavaScriptCore.framework */; };
 		3FC776E91CC0851C00F52B16 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC776E81CC0851C00F52B16 /* main.m */; };
 		3FC776EC1CC0851C00F52B16 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC776EB1CC0851C00F52B16 /* AppDelegate.m */; };
 		3FC776F21CC0851C00F52B16 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FC776F01CC0851C00F52B16 /* Main.storyboard */; };
@@ -107,6 +141,47 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3F642BA41CC5BF90006C9064 /* UIPlaceholderTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIPlaceholderTextView.h; sourceTree = "<group>"; };
+		3F642BA51CC5BF90006C9064 /* UIPlaceholderTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIPlaceholderTextView.m; sourceTree = "<group>"; };
+		3F642BA71CC5C3C9006C9064 /* HomeItem.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = HomeItem.plist; sourceTree = "<group>"; };
+		3F642BA91CC5C682006C9064 /* HomeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeCell.h; sourceTree = "<group>"; };
+		3F642BAA1CC5C682006C9064 /* HomeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeCell.m; sourceTree = "<group>"; };
+		3F642BAB1CC5C682006C9064 /* HomeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeCell.xib; sourceTree = "<group>"; };
+		3F642BB21CC60D83006C9064 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		3F642BB31CC60D83006C9064 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		3F642BB41CC60D83006C9064 /* WebViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WebViewController.xib; sourceTree = "<group>"; };
+		3F642BB81CC61598006C9064 /* 3up4.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = 3up4.css; sourceTree = "<group>"; };
+		3F642BB91CC61598006C9064 /* 3up4.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = 3up4.html; sourceTree = "<group>"; };
+		3F642BBB1CC61598006C9064 /* index.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; name = index.css; path = css/index.css; sourceTree = "<group>"; };
+		3F642BBD1CC61598006C9064 /* add.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = add.png; path = img/add.png; sourceTree = "<group>"; };
+		3F642BBE1CC61598006C9064 /* huanka.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = huanka.png; path = img/huanka.png; sourceTree = "<group>"; };
+		3F642BBF1CC61598006C9064 /* jihuo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = jihuo.png; path = img/jihuo.png; sourceTree = "<group>"; };
+		3F642BC01CC61598006C9064 /* map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = map.png; path = img/map.png; sourceTree = "<group>"; };
+		3F642BC11CC61598006C9064 /* paychaxun_but_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = paychaxun_but_01.png; path = img/paychaxun_but_01.png; sourceTree = "<group>"; };
+		3F642BC21CC61598006C9064 /* paychaxun_but_02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = paychaxun_but_02.png; path = img/paychaxun_but_02.png; sourceTree = "<group>"; };
+		3F642BC31CC61598006C9064 /* paychaxun_but_03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = paychaxun_but_03.png; path = img/paychaxun_but_03.png; sourceTree = "<group>"; };
+		3F642BC41CC61598006C9064 /* paychaxun_but_04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = paychaxun_but_04.png; path = img/paychaxun_but_04.png; sourceTree = "<group>"; };
+		3F642BC61CC61598006C9064 /* jquery.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = jquery.js; path = js/jquery.js; sourceTree = "<group>"; };
+		3F642BC71CC61598006C9064 /* zepto.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = zepto.js; path = js/zepto.js; sourceTree = "<group>"; };
+		3F642BC81CC61598006C9064 /* map.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = map.css; sourceTree = "<group>"; };
+		3F642BC91CC61598006C9064 /* map.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = map.html; sourceTree = "<group>"; };
+		3F642BCA1CC61598006C9064 /* paychaxun.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = paychaxun.css; sourceTree = "<group>"; };
+		3F642BCB1CC61598006C9064 /* paychaxun.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = paychaxun.html; sourceTree = "<group>"; };
+		3F642BCC1CC61598006C9064 /* ShareSDK.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = ShareSDK.xml; sourceTree = "<group>"; };
+		3F642BCD1CC61598006C9064 /* success.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = success.html; sourceTree = "<group>"; };
+		3F642BE21CC6206B006C9064 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		3F642BE31CC6206B006C9064 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		3F642BE41CC6206B006C9064 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		3F642BE71CC62083006C9064 /* ResetPasswordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResetPasswordViewController.h; sourceTree = "<group>"; };
+		3F642BE81CC62083006C9064 /* ResetPasswordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResetPasswordViewController.m; sourceTree = "<group>"; };
+		3F642BE91CC62083006C9064 /* ResetPasswordViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ResetPasswordViewController.xib; sourceTree = "<group>"; };
+		3F642BEC1CC6209A006C9064 /* ResetPasswordNextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResetPasswordNextViewController.h; sourceTree = "<group>"; };
+		3F642BED1CC6209A006C9064 /* ResetPasswordNextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResetPasswordNextViewController.m; sourceTree = "<group>"; };
+		3F642BEE1CC6209A006C9064 /* ResetPasswordNextViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ResetPasswordNextViewController.xib; sourceTree = "<group>"; };
+		3F642BF11CC620BA006C9064 /* ResetPasswordSuccessViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResetPasswordSuccessViewController.h; sourceTree = "<group>"; };
+		3F642BF21CC620BA006C9064 /* ResetPasswordSuccessViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResetPasswordSuccessViewController.m; sourceTree = "<group>"; };
+		3F642BF31CC620BA006C9064 /* ResetPasswordSuccessViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ResetPasswordSuccessViewController.xib; sourceTree = "<group>"; };
+		3F642BF61CC62494006C9064 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		3FC776E41CC0851C00F52B16 /* MsolStore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MsolStore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FC776E81CC0851C00F52B16 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3FC776EA1CC0851C00F52B16 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -270,6 +345,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F642BF71CC62494006C9064 /* JavaScriptCore.framework in Frameworks */,
 				3FE7649E1CC4E73800235F4F /* AssetsLibrary.framework in Frameworks */,
 				3FE7649C1CC4E71E00235F4F /* UIKit.framework in Frameworks */,
 				3FE7649A1CC4E71700235F4F /* MobileCoreServices.framework in Frameworks */,
@@ -294,6 +370,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3F642BB11CC60D49006C9064 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				3F642BB21CC60D83006C9064 /* WebViewController.h */,
+				3F642BB31CC60D83006C9064 /* WebViewController.m */,
+				3F642BB41CC60D83006C9064 /* WebViewController.xib */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		3F642BB71CC6156E006C9064 /* Html */ = {
+			isa = PBXGroup;
+			children = (
+				3F642BC61CC61598006C9064 /* jquery.js */,
+				3F642BC71CC61598006C9064 /* zepto.js */,
+				3F642BBB1CC61598006C9064 /* index.css */,
+				3F642BBD1CC61598006C9064 /* add.png */,
+				3F642BBE1CC61598006C9064 /* huanka.png */,
+				3F642BBF1CC61598006C9064 /* jihuo.png */,
+				3F642BC01CC61598006C9064 /* map.png */,
+				3F642BC11CC61598006C9064 /* paychaxun_but_01.png */,
+				3F642BC21CC61598006C9064 /* paychaxun_but_02.png */,
+				3F642BC31CC61598006C9064 /* paychaxun_but_03.png */,
+				3F642BC41CC61598006C9064 /* paychaxun_but_04.png */,
+				3F642BB81CC61598006C9064 /* 3up4.css */,
+				3F642BB91CC61598006C9064 /* 3up4.html */,
+				3F642BC81CC61598006C9064 /* map.css */,
+				3F642BC91CC61598006C9064 /* map.html */,
+				3F642BCA1CC61598006C9064 /* paychaxun.css */,
+				3F642BCB1CC61598006C9064 /* paychaxun.html */,
+				3F642BCC1CC61598006C9064 /* ShareSDK.xml */,
+				3F642BCD1CC61598006C9064 /* success.html */,
+			);
+			name = Html;
+			sourceTree = "<group>";
+		};
 		3FC776DB1CC0851C00F52B16 = {
 			isa = PBXGroup;
 			children = (
@@ -330,6 +442,7 @@
 		3FC776E71CC0851C00F52B16 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				3F642BB71CC6156E006C9064 /* Html */,
 				3FE764951CC4E69E00235F4F /* MGJRequestManager */,
 				3FE764891CC4E67900235F4F /* AFNetworking */,
 				3FE7646D1CC4E67300235F4F /* UIKit+AFNetworking */,
@@ -342,6 +455,7 @@
 				3FC776E81CC0851C00F52B16 /* main.m */,
 				3FDF90A01CC0C786005EFA6A /* PrefixHeader.pch */,
 				3FDF90B41CC4C2A3005EFA6A /* MyProfileInfo.plist */,
+				3F642BA71CC5C3C9006C9064 /* HomeItem.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -369,6 +483,9 @@
 			children = (
 				3FC7772D1CC09B0100F52B16 /* HomeViewController.h */,
 				3FC7772E1CC09B0100F52B16 /* HomeViewController.m */,
+				3F642BA91CC5C682006C9064 /* HomeCell.h */,
+				3F642BAA1CC5C682006C9064 /* HomeCell.m */,
+				3F642BAB1CC5C682006C9064 /* HomeCell.xib */,
 			);
 			name = Home;
 			sourceTree = "<group>";
@@ -412,6 +529,18 @@
 		3FC777231CC0977200F52B16 /* Account */ = {
 			isa = PBXGroup;
 			children = (
+				3F642BE21CC6206B006C9064 /* LoginViewController.h */,
+				3F642BE31CC6206B006C9064 /* LoginViewController.m */,
+				3F642BE41CC6206B006C9064 /* LoginViewController.xib */,
+				3F642BE71CC62083006C9064 /* ResetPasswordViewController.h */,
+				3F642BE81CC62083006C9064 /* ResetPasswordViewController.m */,
+				3F642BE91CC62083006C9064 /* ResetPasswordViewController.xib */,
+				3F642BEC1CC6209A006C9064 /* ResetPasswordNextViewController.h */,
+				3F642BED1CC6209A006C9064 /* ResetPasswordNextViewController.m */,
+				3F642BEE1CC6209A006C9064 /* ResetPasswordNextViewController.xib */,
+				3F642BF11CC620BA006C9064 /* ResetPasswordSuccessViewController.h */,
+				3F642BF21CC620BA006C9064 /* ResetPasswordSuccessViewController.m */,
+				3F642BF31CC620BA006C9064 /* ResetPasswordSuccessViewController.xib */,
 			);
 			name = Account;
 			sourceTree = "<group>";
@@ -430,6 +559,7 @@
 		3FC777251CC0986D00F52B16 /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				3F642BB11CC60D49006C9064 /* Common */,
 				3FDF90AD1CC4A565005EFA6A /* CustomView */,
 				3FC777261CC0988100F52B16 /* Base */,
 				3FC777231CC0977200F52B16 /* Account */,
@@ -459,6 +589,8 @@
 				3FDF90AF1CC4A579005EFA6A /* QBFlatButton.m */,
 				3FDF90B11CC4BABE005EFA6A /* IcButton.h */,
 				3FDF90B21CC4BABE005EFA6A /* IcButton.m */,
+				3F642BA41CC5BF90006C9064 /* UIPlaceholderTextView.h */,
+				3F642BA51CC5BF90006C9064 /* UIPlaceholderTextView.m */,
 			);
 			name = CustomView;
 			sourceTree = "<group>";
@@ -679,6 +811,7 @@
 		3FE7649F1CC4E7EC00235F4F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3F642BF61CC62494006C9064 /* JavaScriptCore.framework */,
 				3FE7649D1CC4E73800235F4F /* AssetsLibrary.framework */,
 				3FE7649B1CC4E71E00235F4F /* UIKit.framework */,
 				3FE764991CC4E71700235F4F /* MobileCoreServices.framework */,
@@ -790,14 +923,40 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F642BD71CC61598006C9064 /* paychaxun_but_03.png in Resources */,
+				3F642BD41CC61598006C9064 /* map.png in Resources */,
+				3F642BCF1CC61598006C9064 /* 3up4.html in Resources */,
+				3F642BF01CC6209A006C9064 /* ResetPasswordNextViewController.xib in Resources */,
+				3F642BD91CC61598006C9064 /* jquery.js in Resources */,
+				3F642BA81CC5C3C9006C9064 /* HomeItem.plist in Resources */,
+				3F642BEB1CC62083006C9064 /* ResetPasswordViewController.xib in Resources */,
 				3FE763DF1CC4D39E00235F4F /* MyProfileViewController.xib in Resources */,
+				3F642BD31CC61598006C9064 /* jihuo.png in Resources */,
+				3F642BD11CC61598006C9064 /* add.png in Resources */,
 				3FDF90B51CC4C2A3005EFA6A /* MyProfileInfo.plist in Resources */,
+				3F642BDD1CC61598006C9064 /* paychaxun.css in Resources */,
+				3F642BE61CC6206B006C9064 /* LoginViewController.xib in Resources */,
+				3F642BD21CC61598006C9064 /* huanka.png in Resources */,
+				3F642BD01CC61598006C9064 /* index.css in Resources */,
+				3F642BCE1CC61598006C9064 /* 3up4.css in Resources */,
 				3FE763E41CC4D8C600235F4F /* FeedBackViewController.xib in Resources */,
+				3F642BE01CC61598006C9064 /* success.html in Resources */,
+				3F642BDE1CC61598006C9064 /* paychaxun.html in Resources */,
+				3F642BDC1CC61598006C9064 /* map.html in Resources */,
+				3F642BD61CC61598006C9064 /* paychaxun_but_02.png in Resources */,
+				3F642BAD1CC5C682006C9064 /* HomeCell.xib in Resources */,
 				3FDF90A21CC46CD4005EFA6A /* MineHeaderView.xib in Resources */,
 				3FC776F41CC0851C00F52B16 /* Assets.xcassets in Resources */,
+				3F642BD51CC61598006C9064 /* paychaxun_but_01.png in Resources */,
+				3F642BF51CC620BA006C9064 /* ResetPasswordSuccessViewController.xib in Resources */,
+				3F642BD81CC61598006C9064 /* paychaxun_but_04.png in Resources */,
+				3F642BDB1CC61598006C9064 /* map.css in Resources */,
 				3FC776F21CC0851C00F52B16 /* Main.storyboard in Resources */,
+				3F642BB61CC60D83006C9064 /* WebViewController.xib in Resources */,
+				3F642BDA1CC61598006C9064 /* zepto.js in Resources */,
 				3FE764341CC4E65000235F4F /* MJRefresh.bundle in Resources */,
 				3FDF90A61CC47193005EFA6A /* mineitem.plist in Resources */,
+				3F642BDF1CC61598006C9064 /* ShareSDK.xml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -822,10 +981,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F642BF41CC620BA006C9064 /* ResetPasswordSuccessViewController.m in Sources */,
+				3F642BEF1CC6209A006C9064 /* ResetPasswordNextViewController.m in Sources */,
 				3FE764361CC4E65000235F4F /* UIScrollView+MJExtension.m in Sources */,
 				3FDF90A91CC4789E005EFA6A /* MineHeaderView.m in Sources */,
 				3FE764261CC4E65000235F4F /* MJRefreshAutoFooter.m in Sources */,
 				3FC776EC1CC0851C00F52B16 /* AppDelegate.m in Sources */,
+				3F642BE51CC6206B006C9064 /* LoginViewController.m in Sources */,
 				3FDF90B91CC4C4A5005EFA6A /* MyProfileViewController.m in Sources */,
 				3FE7648D1CC4E67900235F4F /* AFNetworkReachabilityManager.m in Sources */,
 				3FE764561CC4E65D00235F4F /* MJPropertyType.m in Sources */,
@@ -841,6 +1003,7 @@
 				3FE763F11CC4E63900235F4F /* NSString+URLEncode.m in Sources */,
 				3FE7646F1CC4E67300235F4F /* UIActivityIndicatorView+AFNetworking.m in Sources */,
 				3FE764551CC4E65D00235F4F /* MJPropertyKey.m in Sources */,
+				3F642BB51CC60D83006C9064 /* WebViewController.m in Sources */,
 				3FE763F41CC4E63900235F4F /* UIUtils.m in Sources */,
 				3FE764281CC4E65000235F4F /* MJRefreshComponent.m in Sources */,
 				3FE763F81CC4E64900235F4F /* MBProgressHUD.m in Sources */,
@@ -852,10 +1015,13 @@
 				3FE764571CC4E65D00235F4F /* NSObject+MJClass.m in Sources */,
 				3FC776E91CC0851C00F52B16 /* main.m in Sources */,
 				3FE764731CC4E67300235F4F /* UIProgressView+AFNetworking.m in Sources */,
+				3F642BAC1CC5C682006C9064 /* HomeCell.m in Sources */,
 				3FE7648C1CC4E67900235F4F /* AFHTTPSessionManager.m in Sources */,
+				3F642BA61CC5BF90006C9064 /* UIPlaceholderTextView.m in Sources */,
 				3FE764521CC4E65D00235F4F /* MJExtensionConst.m in Sources */,
 				3FE764381CC4E65000235F4F /* UIView+MJExtension.m in Sources */,
 				3FE7646E1CC4E67300235F4F /* AFNetworkActivityIndicatorManager.m in Sources */,
+				3F642BEA1CC62083006C9064 /* ResetPasswordViewController.m in Sources */,
 				3FC777321CC09B3400F52B16 /* OrderViewController.m in Sources */,
 				3FE764331CC4E65000235F4F /* MJRefreshStateHeader.m in Sources */,
 				3FE764701CC4E67300235F4F /* UIAlertView+AFNetworking.m in Sources */,
