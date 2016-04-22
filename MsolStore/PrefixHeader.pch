@@ -10,6 +10,7 @@
 
  
 #import <UIKit/UIKit.h>
+#import <Availability.h>
 #import <Foundation/Foundation.h>
 #import <QuartzCore/QuartzCore.h>
 #import <SystemConfiguration/SystemConfiguration.h>
@@ -17,6 +18,10 @@
 
 #import "UIViewExt.h"
 #import "UIView+ClickActions.h"
+#import "NSString+Phone.h"
+#import "UserInfoManager.h"
+#import "Account.h"
+#import "MBProgressHUD.h"
 
 //只在debug下才输出日志, 在程序运行时取消log
 #ifdef DEBUG
@@ -33,4 +38,50 @@
 
 #define RGBA(R/*红*/, G/*绿*/, B/*蓝*/, A/*透明*/) \
 [UIColor colorWithRed:R/255.f green:G/255.f blue:B/255.f alpha:A]
+
+#define MSBlue RGBA(55, 171, 244, 1.0)
+
+
+/**
+ * app接口地址
+ */
+#define SERVICEURL @"http://ln212.huilongkj.com/"
+
+/**
+ * 图片绝对路径
+ */
+#define SERVICEURL_PIC @"http://ln212.huilongkj.com/mstyapp/upload/"
+#define kd_url @"http://ln212.huilongkj.com/msty_app/broadband/toDetail?proId=%@&flag=1"
+#define rh_url @"http://ln212.huilongkj.com/msty_app/fusionPackage/toDetail?proId=%@&flag=1"
+
+/**
+ * 默认3G发展人编码
+ */
+#define DEFAULT_THREEG @"AH00F00026" 
+/**
+ * 默认4G发展人编码
+ */
+#define DEFAULT_FOURG @"Y34000010761"
+
+
+
+//用户信息
+#define UserInfo @"userInfo"
+#define pch_username @"username"
+#define pch_name @"name"
+#define pch_city @"city"
+#define pch_area @"area"
+#define pch_area2 @"area2"
+#define pch_channelId @"channel_id"
+#define pch_sellName @"sell_name"
+#define pch_dzFlag @"dz_flag"
+#define pch_threeG @"threeG"
+#define pch_threeg @"threeg"
+#define pch_fourG @"fourG"
+#define pch_fourg @"fourg"
+#define pch_card @"card"
+#define pch_phone @"phone"
+#define pch_password @"password"
+#define pch_address @"address"
+#define pch_level @"level"
 

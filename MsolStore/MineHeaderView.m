@@ -7,6 +7,8 @@
 //
 
 #import "MineHeaderView.h"
+#import "UserInfoManager.h"
+#import "Account.h"
 
 @implementation MineHeaderView
 
@@ -32,6 +34,9 @@
 -(void)layoutSubviews{
     self.frame = CGRectMake(0, 0, ScreenWidth, 140);
     [super layoutSubviews];
+    Account *account = [UserInfoManager getAccount];
+    self.label_name.text = account.name;
+    self.label_phone.text = account.phone;
 }
 
 

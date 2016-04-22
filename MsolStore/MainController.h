@@ -7,7 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "LoginDelegate.h"
 
-@interface MainController : UITabBarController
+@interface MainController : UITabBarController<LoginDelegate,UIAlertViewDelegate>
+
+
+
 
 @end

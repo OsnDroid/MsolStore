@@ -7,7 +7,20 @@
 //
 
 #import "BaseViewController.h"
+#import "IcButton.h"
+#import "ResetDelegate.h"
 
-@interface ResetPasswordViewController : BaseViewController
+@interface ResetPasswordViewController : BaseViewController<ResetDelegate>
+
+@property (weak, nonatomic) IBOutlet UITextField *tf_phone;
+
+@property (weak, nonatomic) IBOutlet UITextField *tf_yzm;
+
+@property (weak, nonatomic) IBOutlet IcButton *btn_code;
+
+- (IBAction)actionOk:(id)sender;
+
+- (IBAction)actionCode:(id)sender;
+
 
 @end

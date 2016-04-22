@@ -8,8 +8,9 @@
 
 #import "BaseViewController.h"
 #import "UIPlaceholderTextView.h"
+#import "LoginDelegate.h"
 
-@interface FeedBackViewController : BaseViewController<UITextViewDelegate>
+@interface FeedBackViewController : BaseViewController<LoginDelegate>
 
 @property (weak, nonatomic) IBOutlet UITextField *tv_link;
 @property (weak, nonatomic) IBOutlet UIPlaceholderTextView *tv_content;

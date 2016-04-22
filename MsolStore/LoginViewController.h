@@ -7,7 +7,17 @@
 //
 
 #import "BaseViewController.h"
+#import "IcButton.h"
 
 @interface LoginViewController : BaseViewController
+
+@property (nonatomic, strong) UITextField *tf_phone;
+@property (nonatomic, strong) UITextField *tf_pwd;
+@property (nonatomic, strong) UITextField *tf_yzm;
+
+@property (nonatomic, strong) IcButton *btn_code;
+@property (nonatomic, strong) IcButton *btn_forgotPwd;
+@property (nonatomic, strong) IcButton *btn_login;
+
 
 @end

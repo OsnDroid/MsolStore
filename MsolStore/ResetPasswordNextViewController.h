@@ -7,7 +7,20 @@
 //
 
 #import "BaseViewController.h"
+#import "ResetDelegate.h"
+#import "LoginDelegate.h"
 
-@interface ResetPasswordNextViewController : BaseViewController
+@interface ResetPasswordNextViewController : BaseViewController<LoginDelegate>
+
+@property (weak, nonatomic) IBOutlet UITextField *tf_pwd;
+
+
+@property (weak, nonatomic) IBOutlet UITextField *tf_pwd_again;
+
+@property (nonatomic,strong) NSString *resetPhone;
+@property (nonatomic,strong) NSString *resetCode;
+@property (assign, nonatomic) id <ResetDelegate> delegate;
+
+- (IBAction)action_next:(id)sender;
 
 @end

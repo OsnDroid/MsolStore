@@ -13,7 +13,9 @@
 #import "FeedBackViewController.h"
 #import "LoginViewController.h"
 #import "AppDelegate.h"
-
+#import "BaseNavigationController.h"
+#import "UserInfoManager.h"
+#import "ResetPasswordViewController.h"
 
 @interface MineViewController ()
 
@@ -89,6 +91,7 @@
     }
     if ([[self getVauleForDicByGroup:2 selectRow:0] isEqualToString:selabel]) {
         //修改密码
+        viewCtrl = [[ResetPasswordViewController alloc] init];
     }
     if ([[self getVauleForDicByGroup:2 selectRow:1] isEqualToString:selabel]) {
         //我要反馈
@@ -121,12 +124,22 @@
 -(void)actionSheet:(UIActionSheet *)actionSheet clickedButtonAtIndex:(NSInteger)buttonIndex{
     if (actionSheet.tag == 200) {
         if (buttonIndex == 0) {
-            [self toast:self.view cotent:@"注销成功"];
-//            [UserInfoManager clear];
-//            [UserInfoManager updateWithObject:@"100" forKey:ican_isfirst];
-            LoginViewController *loginCtrl = [[LoginViewController alloc] init];
+            [self toast:self.view content:@"注销成功"];
+            [UserInfoManager clear];          
+            NSString *ctrStr = @"";
+            if (ScreenWidth == 320 && ScreenHeight == 480) {
+                ctrStr = @"LoginViewi4Controller";
+            } else{
+                ctrStr = @"LoginViewController";
+            }
+            MyLog(ctrStr,nil);
+           
+            LoginViewController *loginCtrl = [[LoginViewController alloc] initWithNibName:ctrStr bundle:nil];
+            BaseNavigationController *sendNav = [[BaseNavigationController alloc] initWithRootViewController:loginCtrl];
+            sendNav.navigationBar.barTintColor = MSBlue;
+            sendNav.navigationBar.hidden = YES;
             AppDelegate *deleteview =  (AppDelegate *)[UIApplication sharedApplication].delegate;
-            deleteview.window.rootViewController = loginCtrl;
+            deleteview.window.rootViewController = sendNav;
         }
         if (buttonIndex == 1) {
             
@@ -137,15 +150,6 @@
 }
 
 
-#pragma mark - 消息提示
--(void)toast:(UIView *) view cotent:(NSString *) param{
-    _toast = [[MBProgressHUD alloc] initWithView:view];
-    _toast.labelText = param;
-    _toast.mode = MBProgressHUDModeText;
-    [self.view addSubview:_toast];
-    [_toast show:YES];
-    [_toast hide:YES afterDelay:2];
-}
 
 
 

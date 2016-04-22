@@ -10,4 +10,5 @@
 
 @interface ResetPasswordSuccessViewController : BaseViewController
 
+- (IBAction)action_ok:(id)sender;
 @end

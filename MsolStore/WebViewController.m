@@ -23,6 +23,7 @@ static NSString *url2 = @"http://ah.189.cn/jsp/Change4GCard/wapPage/activityCard
     if (self) {
         self.title = @"";
         self.isBottm = YES;
+        self.isShare = NO;
     }
     return self;
 }
@@ -42,6 +43,15 @@ static NSString *url2 = @"http://ah.189.cn/jsp/Change4GCard/wapPage/activityCard
         [_webView loadHTMLString:htmlString baseURL:[NSURL URLWithString:_url]];
         _webView.delegate = self;
         self.title = @"加载中...";
+    }
+    
+    if (self.isShare) {
+        UIButton *button2 = [[UIButton alloc] init];
+        button2.frame = CGRectMake(0, 0, 24, 24);
+        [button2 setImage:[UIImage imageNamed:@"btn_share"] forState:UIControlStateNormal];
+        [button2 addTarget:self action:@selector(shareAction) forControlEvents:UIControlEventTouchUpInside];
+        UIBarButtonItem *backItem2 = [[UIBarButtonItem alloc] initWithCustomView:button2];
+        self.navigationItem.rightBarButtonItem = backItem2;
     }
     
     dispatch_async(dispatch_get_main_queue(), ^{
@@ -66,20 +76,20 @@ static NSString *url2 = @"http://ah.189.cn/jsp/Change4GCard/wapPage/activityCard
     self.title = title;
     
     JSContext *context=[webView valueForKeyPath:@"documentView.webView.mainFrame.javaScriptContext"];
-    
+    Account *account = [UserInfoManager getAccount];
     //js调用iOS
     //第一种情况
     //其中test1就是js的方法名称，赋给是一个block 里面是iOS代码
     //此方法最终将打印出所有接收到的参数，js参数是不固定的 我们测试一下就知道
     context[@"goUrl1"] = ^() {
         MyLog([NSString stringWithFormat:url1,@"999"],nil);
-        WebViewController *ctrl = [[WebViewController alloc] initWithUrl:[NSString stringWithFormat:url1,@"999"]];
+        WebViewController *ctrl = [[WebViewController alloc] initWithUrl:[NSString stringWithFormat:url1,account.fourG]];
         self.hidesBottomBarWhenPushed = YES;
         [self.navigationController pushViewController:ctrl animated:YES];
     };
     context[@"goUrl2"] = ^() {
         MyLog([NSString stringWithFormat:url2,@"9991"],nil);
-        WebViewController *ctrl = [[WebViewController alloc] initWithUrl:[NSString stringWithFormat:url2,@"9991"]];
+        WebViewController *ctrl = [[WebViewController alloc] initWithUrl:[NSString stringWithFormat:url2,account.fourG]];
         self.hidesBottomBarWhenPushed = YES;
         [self.navigationController pushViewController:ctrl animated:YES];
     };
@@ -98,6 +108,13 @@ static NSString *url2 = @"http://ah.189.cn/jsp/Change4GCard/wapPage/activityCard
 
 //    self.label_bottom.hidden = self.isBottm;
 }
+
+
+-(void)shareAction {
+    MyLog(@"share..",nil);
+    
+}
+
 
 -(void)dealloc {
     [_webView stopLoading];

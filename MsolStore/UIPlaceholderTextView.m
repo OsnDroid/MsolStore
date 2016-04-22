@@ -40,7 +40,7 @@
     if (super.text.length == 0) {
         super.text = _placeholder;
         //如果文本框内是原本的提示文字，则显示灰色字体
-        [super setTextColor:[UIColor lightGrayColor]];
+        [super setTextColor:RGBA(199, 199, 205, 1)];
     }
 }
 #pragma mark 重写setPlaceholder方法

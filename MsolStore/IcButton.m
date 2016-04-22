@@ -35,6 +35,15 @@
     return self;
 }
 
+- (instancetype)init
+{
+    self = [super init];
+    if (self) {
+        [self qbfb_init];
+    }
+    return self;
+}
+
 - (instancetype)initWithCoder:(NSCoder *)decoder
 {
     self = [super initWithCoder:decoder];
@@ -45,6 +54,8 @@
     
     return self;
 }
+
+ 
 
 - (void)setHighlighted:(BOOL)value
 {

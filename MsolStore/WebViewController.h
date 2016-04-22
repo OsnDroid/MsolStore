@@ -7,7 +7,7 @@
 //
 
 #import "BaseViewController.h"
-#import "MbProgressHUD.h"
+
 
 @interface WebViewController : BaseViewController<UIWebViewDelegate>
 {
@@ -21,9 +21,8 @@
 
 @property (nonatomic,assign) BOOL isBottm;
 
+@property (nonatomic,assign) BOOL isShare;
 
-//加载提示
-@property (nonatomic,strong) MBProgressHUD *toast;
 
 @property (strong, nonatomic) IBOutlet UILabel *label_bottom;
 
