@@ -25,6 +25,7 @@
         self.manager = [AFHTTPRequestOperationManager manager];
         self.manager.requestSerializer = [AFJSONRequestSerializer serializer];
         self.manager.responseSerializer = [AFJSONResponseSerializer serializer];
+        self.tag = 0;
     }
     return self;
 }
@@ -39,6 +40,7 @@
             //重登
             MyLog(@"重登陆...",nil);
             LoginService *loginService = [[LoginService alloc] init];
+            loginService.tag = self.tag;
             loginService.delegate = self.delegate;
             [loginService login];
 //            if (self.delegate) {
@@ -58,7 +60,7 @@
         else {
             if (self.delegate) {
                 [self.delegate onFinish];
-                [self.delegate onResponse:responseObject];
+                [self.delegate onResponse:responseObject tag:self.tag];
             }
         }
     } failure:^(AFHTTPRequestOperation *operation, NSError *error) {

@@ -65,7 +65,7 @@
 
 }
 
--(void)onResponse:(id)responseObject {
+-(void)onResponse:(id)responseObject tag:(int)tag{
     NSString *result = [responseObject objectForKey:@"code"];
     if ([result isEqualToString:@"000"]) {
         NSDictionary *account = [responseObject objectForKey:@"info"];
@@ -121,7 +121,7 @@
     [self prop:param];
 }
 
--(void)onLoginSuccess:(BOOL)state {
+-(void)onLoginSuccess:(BOOL)state tag:(int)tag{
     [self loadNetData];
 }
 

@@ -72,7 +72,7 @@
     [self closeProgress];
 }
 
--(void)onResponse:(id)responseObject {
+-(void)onResponse:(id)responseObject tag:(int)tag{
     NSString *resultMsg = [responseObject objectForKey:@"message"];
     NSString *code = [responseObject objectForKey:@"code"];
     if ([code isEqualToString:@"000"]) {
@@ -88,12 +88,12 @@
     [self prop:param];
 }
 
--(void)onLoginFail:(id)responseObject{
+-(void)onLoginFail:(id)responseObject {
     NSString *resultMsg = [responseObject objectForKey:@"message"];
     [self prop:resultMsg delegate:self];
 }
 
--(void)onLoginSuccess:(BOOL)state {
+-(void)onLoginSuccess:(BOOL)state tag:(int)tag{
     [self submit];
 }
 

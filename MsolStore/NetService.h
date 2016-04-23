@@ -18,5 +18,6 @@
 //Post请求
 -(void)post:(NSString *) url parameters:(id) parameters;
 
+@property (assign,nonatomic) int tag;
 
 @end

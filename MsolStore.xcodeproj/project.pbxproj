@@ -7,6 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F493D6C1CCA2A4100C54AFE /* BusinesshallCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F493D6A1CCA2A4100C54AFE /* BusinesshallCell.m */; };
+		3F493D6D1CCA2A4100C54AFE /* BusinesshallCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F493D6B1CCA2A4100C54AFE /* BusinesshallCell.xib */; };
+		3F493D711CCA2EC700C54AFE /* BroadbandMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F493D6F1CCA2EC700C54AFE /* BroadbandMainViewController.m */; };
+		3F493D721CCA2EC700C54AFE /* BroadbandMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F493D701CCA2EC700C54AFE /* BroadbandMainViewController.xib */; };
+		3F493D751CCB51FF00C54AFE /* BBHService.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F493D741CCB51FF00C54AFE /* BBHService.m */; };
+		3F493D781CCB69B000C54AFE /* BroadbandService.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F493D771CCB69B000C54AFE /* BroadbandService.m */; };
+		3F493D7C1CCB6B3100C54AFE /* BroadbandListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F493D7A1CCB6B3100C54AFE /* BroadbandListViewController.m */; };
+		3F493D7D1CCB6B3100C54AFE /* BroadbandListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F493D7B1CCB6B3100C54AFE /* BroadbandListViewController.xib */; };
+		3F493D811CCB73C500C54AFE /* BroadbandCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F493D7F1CCB73C500C54AFE /* BroadbandCell.m */; };
+		3F493D821CCB73C500C54AFE /* BroadbandCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F493D801CCB73C500C54AFE /* BroadbandCell.xib */; };
+		3F493D861CCB815000C54AFE /* BroadbandPreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F493D841CCB815000C54AFE /* BroadbandPreViewController.m */; };
+		3F493D871CCB815000C54AFE /* BroadbandPreViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F493D851CCB815000C54AFE /* BroadbandPreViewController.xib */; };
+		3F493D891CCB852100C54AFE /* ic_default_adimage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F493D881CCB852100C54AFE /* ic_default_adimage.jpg */; };
+		3F493D8D1CCB866A00C54AFE /* HandleOrdersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F493D8B1CCB866A00C54AFE /* HandleOrdersViewController.m */; };
+		3F493D8E1CCB866A00C54AFE /* HandleOrdersViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F493D8C1CCB866A00C54AFE /* HandleOrdersViewController.xib */; };
 		3F642BA61CC5BF90006C9064 /* UIPlaceholderTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F642BA51CC5BF90006C9064 /* UIPlaceholderTextView.m */; };
 		3F642BA81CC5C3C9006C9064 /* HomeItem.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F642BA71CC5C3C9006C9064 /* HomeItem.plist */; };
 		3F642BAC1CC5C682006C9064 /* HomeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F642BAA1CC5C682006C9064 /* HomeCell.m */; };
@@ -198,6 +213,29 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3F493D691CCA2A4100C54AFE /* BusinesshallCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BusinesshallCell.h; sourceTree = "<group>"; };
+		3F493D6A1CCA2A4100C54AFE /* BusinesshallCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BusinesshallCell.m; sourceTree = "<group>"; };
+		3F493D6B1CCA2A4100C54AFE /* BusinesshallCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BusinesshallCell.xib; sourceTree = "<group>"; };
+		3F493D6E1CCA2EC700C54AFE /* BroadbandMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BroadbandMainViewController.h; sourceTree = "<group>"; };
+		3F493D6F1CCA2EC700C54AFE /* BroadbandMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BroadbandMainViewController.m; sourceTree = "<group>"; };
+		3F493D701CCA2EC700C54AFE /* BroadbandMainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BroadbandMainViewController.xib; sourceTree = "<group>"; };
+		3F493D731CCB51FF00C54AFE /* BBHService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBHService.h; sourceTree = "<group>"; };
+		3F493D741CCB51FF00C54AFE /* BBHService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBHService.m; sourceTree = "<group>"; };
+		3F493D761CCB69B000C54AFE /* BroadbandService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BroadbandService.h; sourceTree = "<group>"; };
+		3F493D771CCB69B000C54AFE /* BroadbandService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BroadbandService.m; sourceTree = "<group>"; };
+		3F493D791CCB6B3100C54AFE /* BroadbandListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BroadbandListViewController.h; sourceTree = "<group>"; };
+		3F493D7A1CCB6B3100C54AFE /* BroadbandListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BroadbandListViewController.m; sourceTree = "<group>"; };
+		3F493D7B1CCB6B3100C54AFE /* BroadbandListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BroadbandListViewController.xib; sourceTree = "<group>"; };
+		3F493D7E1CCB73C500C54AFE /* BroadbandCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BroadbandCell.h; sourceTree = "<group>"; };
+		3F493D7F1CCB73C500C54AFE /* BroadbandCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BroadbandCell.m; sourceTree = "<group>"; };
+		3F493D801CCB73C500C54AFE /* BroadbandCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BroadbandCell.xib; sourceTree = "<group>"; };
+		3F493D831CCB815000C54AFE /* BroadbandPreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BroadbandPreViewController.h; sourceTree = "<group>"; };
+		3F493D841CCB815000C54AFE /* BroadbandPreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BroadbandPreViewController.m; sourceTree = "<group>"; };
+		3F493D851CCB815000C54AFE /* BroadbandPreViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BroadbandPreViewController.xib; sourceTree = "<group>"; };
+		3F493D881CCB852100C54AFE /* ic_default_adimage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ic_default_adimage.jpg; sourceTree = "<group>"; };
+		3F493D8A1CCB866A00C54AFE /* HandleOrdersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HandleOrdersViewController.h; sourceTree = "<group>"; };
+		3F493D8B1CCB866A00C54AFE /* HandleOrdersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HandleOrdersViewController.m; sourceTree = "<group>"; };
+		3F493D8C1CCB866A00C54AFE /* HandleOrdersViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HandleOrdersViewController.xib; sourceTree = "<group>"; };
 		3F642BA41CC5BF90006C9064 /* UIPlaceholderTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIPlaceholderTextView.h; sourceTree = "<group>"; };
 		3F642BA51CC5BF90006C9064 /* UIPlaceholderTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIPlaceholderTextView.m; sourceTree = "<group>"; };
 		3F642BA71CC5C3C9006C9064 /* HomeItem.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = HomeItem.plist; sourceTree = "<group>"; };
@@ -616,6 +654,7 @@
 		3FC258211CC8DA7F00865730 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				3F493D881CCB852100C54AFE /* ic_default_adimage.jpg */,
 				3FC258201CC8DA7F00865730 /* demo.png */,
 			);
 			name = Resources;
@@ -715,6 +754,21 @@
 		3FC2587D1CCA0E7400865730 /* Broadband */ = {
 			isa = PBXGroup;
 			children = (
+				3F493D6E1CCA2EC700C54AFE /* BroadbandMainViewController.h */,
+				3F493D6F1CCA2EC700C54AFE /* BroadbandMainViewController.m */,
+				3F493D701CCA2EC700C54AFE /* BroadbandMainViewController.xib */,
+				3F493D791CCB6B3100C54AFE /* BroadbandListViewController.h */,
+				3F493D7A1CCB6B3100C54AFE /* BroadbandListViewController.m */,
+				3F493D7B1CCB6B3100C54AFE /* BroadbandListViewController.xib */,
+				3F493D7E1CCB73C500C54AFE /* BroadbandCell.h */,
+				3F493D7F1CCB73C500C54AFE /* BroadbandCell.m */,
+				3F493D801CCB73C500C54AFE /* BroadbandCell.xib */,
+				3F493D831CCB815000C54AFE /* BroadbandPreViewController.h */,
+				3F493D841CCB815000C54AFE /* BroadbandPreViewController.m */,
+				3F493D851CCB815000C54AFE /* BroadbandPreViewController.xib */,
+				3F493D8A1CCB866A00C54AFE /* HandleOrdersViewController.h */,
+				3F493D8B1CCB866A00C54AFE /* HandleOrdersViewController.m */,
+				3F493D8C1CCB866A00C54AFE /* HandleOrdersViewController.xib */,
 			);
 			name = Broadband;
 			sourceTree = "<group>";
@@ -818,6 +872,9 @@
 				3FC258781CCA0E6A00865730 /* BusinesshallChangeViewController.h */,
 				3FC258791CCA0E6A00865730 /* BusinesshallChangeViewController.m */,
 				3FC2587A1CCA0E6A00865730 /* BusinesshallChangeViewController.xib */,
+				3F493D691CCA2A4100C54AFE /* BusinesshallCell.h */,
+				3F493D6A1CCA2A4100C54AFE /* BusinesshallCell.m */,
+				3F493D6B1CCA2A4100C54AFE /* BusinesshallCell.xib */,
 			);
 			name = Home;
 			sourceTree = "<group>";
@@ -1257,6 +1314,10 @@
 				3FFC6BDA1CC79CEE003E0667 /* LoginService.m */,
 				3FC2580F1CC864E500865730 /* AccountService.h */,
 				3FC258101CC864E500865730 /* AccountService.m */,
+				3F493D731CCB51FF00C54AFE /* BBHService.h */,
+				3F493D741CCB51FF00C54AFE /* BBHService.m */,
+				3F493D761CCB69B000C54AFE /* BroadbandService.h */,
+				3F493D771CCB69B000C54AFE /* BroadbandService.m */,
 			);
 			name = NetService;
 			sourceTree = "<group>";
@@ -1375,6 +1436,7 @@
 			files = (
 				3FC258581CC9F77700865730 /* ShareSDK.bundle in Resources */,
 				3F642BD71CC61598006C9064 /* paychaxun_but_03.png in Resources */,
+				3F493D871CCB815000C54AFE /* BroadbandPreViewController.xib in Resources */,
 				3F642BD41CC61598006C9064 /* map.png in Resources */,
 				3F642BF91CC66124006C9064 /* LoginViewi4Controller.xib in Resources */,
 				3F642BCF1CC61598006C9064 /* 3up4.html in Resources */,
@@ -1386,11 +1448,13 @@
 				3FE763DF1CC4D39E00235F4F /* MyProfileViewController.xib in Resources */,
 				3F642BD31CC61598006C9064 /* jihuo.png in Resources */,
 				3FC258521CC9F77700865730 /* TencentOpenApi_IOS_Bundle.bundle in Resources */,
+				3F493D891CCB852100C54AFE /* ic_default_adimage.jpg in Resources */,
 				3F642BD11CC61598006C9064 /* add.png in Resources */,
 				3FDF90B51CC4C2A3005EFA6A /* MyProfileInfo.plist in Resources */,
 				3F642BDD1CC61598006C9064 /* paychaxun.css in Resources */,
 				3FC258561CC9F77700865730 /* read_me.txt in Resources */,
 				3FC2587C1CCA0E6A00865730 /* BusinesshallChangeViewController.xib in Resources */,
+				3F493D7D1CCB6B3100C54AFE /* BroadbandListViewController.xib in Resources */,
 				3F642BE61CC6206B006C9064 /* LoginViewController.xib in Resources */,
 				3F642BD21CC61598006C9064 /* huanka.png in Resources */,
 				3F642BD01CC61598006C9064 /* index.css in Resources */,
@@ -1407,11 +1471,15 @@
 				3FC776F41CC0851C00F52B16 /* Assets.xcassets in Resources */,
 				3F642BD51CC61598006C9064 /* paychaxun_but_01.png in Resources */,
 				3F642BF51CC620BA006C9064 /* ResetPasswordSuccessViewController.xib in Resources */,
+				3F493D6D1CCA2A4100C54AFE /* BusinesshallCell.xib in Resources */,
 				3F642BD81CC61598006C9064 /* paychaxun_but_04.png in Resources */,
+				3F493D721CCA2EC700C54AFE /* BroadbandMainViewController.xib in Resources */,
 				3F642BDB1CC61598006C9064 /* map.css in Resources */,
 				3FC776F21CC0851C00F52B16 /* Main.storyboard in Resources */,
 				3F642BB61CC60D83006C9064 /* WebViewController.xib in Resources */,
+				3F493D8E1CCB866A00C54AFE /* HandleOrdersViewController.xib in Resources */,
 				3F642BDA1CC61598006C9064 /* zepto.js in Resources */,
+				3F493D821CCB73C500C54AFE /* BroadbandCell.xib in Resources */,
 				3FC258541CC9F77700865730 /* WeiboSDK.bundle in Resources */,
 				3FE764341CC4E65000235F4F /* MJRefresh.bundle in Resources */,
 				3FDF90A61CC47193005EFA6A /* mineitem.plist in Resources */,
@@ -1480,13 +1548,16 @@
 				3FFC6B951CC758D9003E0667 /* UncaughtExceptionHandler.m in Sources */,
 				3FE763F81CC4E64900235F4F /* MBProgressHUD.m in Sources */,
 				3FE7642E1CC4E65000235F4F /* MJRefreshBackGifFooter.m in Sources */,
+				3F493D6C1CCA2A4100C54AFE /* BusinesshallCell.m in Sources */,
 				3FC777291CC0989F00F52B16 /* BaseViewController.m in Sources */,
 				3FFC6BD01CC77039003E0667 /* UIImage+MultiFormat.m in Sources */,
 				3FC7771E1CC0956500F52B16 /* MainController.m in Sources */,
 				3FE764961CC4E69E00235F4F /* MGJRequestManager.m in Sources */,
+				3F493D711CCA2EC700C54AFE /* BroadbandMainViewController.m in Sources */,
 				3FFC6BA21CC76DFE003E0667 /* Account.m in Sources */,
 				3FE764581CC4E65D00235F4F /* NSObject+MJCoding.m in Sources */,
 				3FE764571CC4E65D00235F4F /* NSObject+MJClass.m in Sources */,
+				3F493D8D1CCB866A00C54AFE /* HandleOrdersViewController.m in Sources */,
 				3FC776E91CC0851C00F52B16 /* main.m in Sources */,
 				3FE764731CC4E67300235F4F /* UIProgressView+AFNetworking.m in Sources */,
 				3F642BAC1CC5C682006C9064 /* HomeCell.m in Sources */,
@@ -1505,14 +1576,17 @@
 				3FE764701CC4E67300235F4F /* UIAlertView+AFNetworking.m in Sources */,
 				3FE7642F1CC4E65000235F4F /* MJRefreshBackNormalFooter.m in Sources */,
 				3FE764371CC4E65000235F4F /* UIScrollView+MJRefresh.m in Sources */,
+				3F493D861CCB815000C54AFE /* BroadbandPreViewController.m in Sources */,
 				3FFC6BCB1CC77039003E0667 /* SDWebImageDownloaderOperation.m in Sources */,
 				3FE7642C1CC4E65000235F4F /* MJRefreshAutoNormalFooter.m in Sources */,
 				3FC2587B1CCA0E6A00865730 /* BusinesshallChangeViewController.m in Sources */,
 				3FE763E31CC4D8C600235F4F /* FeedBackViewController.m in Sources */,
 				3FE764321CC4E65000235F4F /* MJRefreshNormalHeader.m in Sources */,
 				3FE7642D1CC4E65000235F4F /* MJRefreshAutoStateFooter.m in Sources */,
+				3F493D7C1CCB6B3100C54AFE /* BroadbandListViewController.m in Sources */,
 				3FE7645A1CC4E65D00235F4F /* NSObject+MJProperty.m in Sources */,
 				3FE7648E1CC4E67900235F4F /* AFSecurityPolicy.m in Sources */,
+				3F493D781CCB69B000C54AFE /* BroadbandService.m in Sources */,
 				3FFC6BD31CC77039003E0667 /* UIImageView+WebCache.m in Sources */,
 				3FE764271CC4E65000235F4F /* MJRefreshBackFooter.m in Sources */,
 				3FE764911CC4E67900235F4F /* AFURLResponseSerialization.m in Sources */,
@@ -1525,6 +1599,7 @@
 				3FFC6BCA1CC77039003E0667 /* SDWebImageDownloader.m in Sources */,
 				3FE764721CC4E67300235F4F /* UIImageView+AFNetworking.m in Sources */,
 				3FC258291CC9B2D700865730 /* KLCPopup.m in Sources */,
+				3F493D751CCB51FF00C54AFE /* BBHService.m in Sources */,
 				3FFC6BD11CC77039003E0667 /* UIImage+WebP.m in Sources */,
 				3FDF909F1CC0BB6F005EFA6A /* StoreViewController.m in Sources */,
 				3FE764301CC4E65000235F4F /* MJRefreshBackStateFooter.m in Sources */,
@@ -1540,6 +1615,7 @@
 				3FDF90B31CC4BABE005EFA6A /* IcButton.m in Sources */,
 				3FE764751CC4E67300235F4F /* UIWebView+AFNetworking.m in Sources */,
 				3FDF909C1CC0A114005EFA6A /* MineViewController.m in Sources */,
+				3F493D811CCB73C500C54AFE /* BroadbandCell.m in Sources */,
 				3FDF90B01CC4A579005EFA6A /* QBFlatButton.m in Sources */,
 				3FFC6B9A1CC758EC003E0667 /* AppUpdateHelper.m in Sources */,
 				3FE764591CC4E65D00235F4F /* NSObject+MJKeyValue.m in Sources */,

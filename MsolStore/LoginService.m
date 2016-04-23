@@ -15,6 +15,15 @@
 @implementation LoginService
 
 
+- (instancetype)init
+{
+    self = [super init];
+    if (self) {
+        self.tag = 0;
+    }
+    return self;
+}
+
 -(void)login {
     Account *account = [UserInfoManager getAccount];
     AFHTTPRequestOperationManager *manager = [AFHTTPRequestOperationManager manager];
@@ -70,7 +79,7 @@
             BOOL isSavesuccess = [UserInfoManager saveAccount:localAcount];
             MyLog(@"登陆成功",nil);
             if (self.delegate) {
-               [self.delegate onLoginSuccess:isSavesuccess];
+               [self.delegate onLoginSuccess:isSavesuccess tag:self.tag];
             }
             
         } else {

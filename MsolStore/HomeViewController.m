@@ -9,6 +9,8 @@
 #import "HomeViewController.h"
 #import "HomeCell.h"
 #import "WebViewController.h"
+#import "BusineshallViewController.h"
+#import "BroadbandMainViewController.h"
 
 @interface HomeViewController ()
 
@@ -65,6 +67,7 @@
     switch (indexPath.row) {
         case 0:
             //融合套餐
+            vCtrl = [[BroadbandMainViewController alloc] init];
            break;
         case 1:
             //号码办理
@@ -95,6 +98,7 @@
             break;
         case 7:
             //结对营业厅
+            vCtrl = [[BusineshallViewController alloc] init];
             break;
         case 8:
             //产品仓库

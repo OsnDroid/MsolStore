@@ -17,4 +17,6 @@
 
 -(void)login;
 
+@property (assign,nonatomic) int tag;
+
 @end

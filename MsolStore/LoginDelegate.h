@@ -14,7 +14,7 @@
 @optional
 
 //登陆成功
--(void) onLoginSuccess:(BOOL) state;
+-(void) onLoginSuccess:(BOOL) state tag:(int) tag;
 //登陆密码帐号错误
 -(void) onLoginFail:(id) responseObject;
 //登陆session实效

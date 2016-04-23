@@ -13,7 +13,7 @@
 @optional
 
 //服务器返回
--(void) onResponse:(id) responseObject;
+-(void) onResponse:(id) responseObject tag:(int) tag;
 //网络异常
 -(void) onError:(NSError *)error;
 // 完成

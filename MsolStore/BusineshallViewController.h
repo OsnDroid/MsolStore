@@ -7,7 +7,15 @@
 //
 
 #import "BaseViewController.h"
+#import "AccountService.h"
+#import "BusinesshallChangeViewController.h"
 
-@interface BusineshallViewController : BaseViewController
+@interface BusineshallViewController : BaseViewController<LoginDelegate,CompleteDelegate>
+
+
+
+- (IBAction)actionReset:(id)sender;
+
+@property (weak, nonatomic) IBOutlet UILabel *label_content;
 
 @end

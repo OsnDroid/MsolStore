@@ -55,9 +55,7 @@
         deleteview.window.rootViewController = sendNav;
         
     } else {
-        [self.navigationController dismissViewControllerAnimated:NO completion:^{
-            
-        }];
+        [self.navigationController popViewControllerAnimated:YES];
     }
 
 }

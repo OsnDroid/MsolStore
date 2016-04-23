@@ -34,7 +34,7 @@
 }
 
 //登陆成功
--(void) onLoginSuccess:(BOOL) state{
+-(void) onLoginSuccess:(BOOL) state tag:(int)tag{
     [self toast:self.view content:(state?@"登陆成功":@"登陆失败")];
 }
 
@@ -85,6 +85,7 @@
     MBProgressHUD *toast = [[MBProgressHUD alloc] initWithView:view];
     toast.labelText = param;
     toast.yOffset = ScreenHeight/2-100;
+    toast.userInteractionEnabled = NO;
     toast.mode = MBProgressHUDModeText;
     [self.view addSubview:toast];
     [toast show:YES];

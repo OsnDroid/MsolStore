@@ -41,9 +41,7 @@
 }
 
 -(void) onResetSuccess:(BOOL) state {
-   [self.navigationController dismissViewControllerAnimated:NO completion:^{
-       
-   }];
+  [self.navigationController popViewControllerAnimated:YES];
 }
 
 - (IBAction)actionOk:(id)sender {

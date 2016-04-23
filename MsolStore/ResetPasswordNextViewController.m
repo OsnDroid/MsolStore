@@ -66,9 +66,7 @@
         ResetPasswordSuccessViewController *ctrl = [[ResetPasswordSuccessViewController alloc] init];
         [self setHidesBottomBarWhenPushed:YES];
         [self.navigationController pushViewController:ctrl animated:YES];
-        [self.navigationController dismissViewControllerAnimated:NO completion:^{
-            
-        }];
+        [self.navigationController popViewControllerAnimated:YES];
        
     }else{
         [self prop:[responseObject objectForKey:@"message"]];

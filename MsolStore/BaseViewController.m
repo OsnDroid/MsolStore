@@ -21,6 +21,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.automaticallyAdjustsScrollViewInsets = false;
     [self.navigationController.navigationBar setTintColor:[UIColor whiteColor]];
     NSArray *viewControllers = self.navigationController.viewControllers;
     if (viewControllers.count > 1) {
@@ -72,6 +73,7 @@
 -(void)toast:(UIView *) view content:(NSString *) param{
     _toast = [[MBProgressHUD alloc] initWithView:view];
     _toast.labelText = param;
+    _toast.userInteractionEnabled = NO;
     _toast.mode = MBProgressHUDModeText;
     _toast.yOffset = ScreenHeight/2-100;
     [self.view addSubview:_toast];
@@ -91,14 +93,16 @@
 }
 
 -(void)showProgress:(UIView *) view content:(NSString *) param{
-    if (self.hud && !self.hud.isHidden) {
-        return;
+    if (self.hud) {
+        self.hud.labelText = param;
+        [self.hud show:YES];
+    } else {
+        self.hud = [[MBProgressHUD alloc] initWithView:view];
+        self.hud.labelText = param;
+        self.hud.mode = MBProgressHUDModeIndeterminate;
+        [self.view addSubview:self.hud];
+        [self.hud show:YES];
     }
-    self.hud = [[MBProgressHUD alloc] initWithView:view];
-    self.hud.labelText = param;
-    self.hud.mode = MBProgressHUDModeIndeterminate;
-    [self.view addSubview:self.hud];
-    [self.hud show:YES];
 }
 
 -(void)closeProgress {
