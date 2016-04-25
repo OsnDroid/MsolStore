@@ -11,6 +11,7 @@
 #import "WebViewController.h"
 #import "BusineshallViewController.h"
 #import "BroadbandMainViewController.h"
+#import "ProductListViewController.h"
 
 @interface HomeViewController ()
 
@@ -26,6 +27,8 @@
     NSString *plistPath = [bundle pathForResource:@"HomeItem" ofType:@"plist"];
     self.data = [[NSMutableArray  alloc] initWithContentsOfFile:plistPath];
     self.collectionView.frame = CGRectMake(0, 0, ScreenWidth, ScreenWidth/4*3);
+    
+    
 
 }
 
@@ -102,6 +105,7 @@
             break;
         case 8:
             //产品仓库
+            vCtrl = [[ProductListViewController alloc] init];
             break;
         case 9:
             //实名制补录

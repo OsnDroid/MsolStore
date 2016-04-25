@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ProductDeleteCell">
+            <connections>
+                <outlet property="btn_check" destination="bg0-R1-B0G" id="sQE-HP-mwj"/>
+                <outlet property="iv_pic" destination="qGE-DL-ksk" id="9Xw-6p-4tc"/>
+                <outlet property="label_name" destination="KhN-lP-Tim" id="dre-tP-6kL"/>
+                <outlet property="label_price" destination="l6S-5W-pQx" id="TCo-q8-nTv"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell userInteractionEnabled="NO" contentMode="scaleToFill" selectionStyle="blue" indentationWidth="10" id="VUj-CN-Urd" customClass="ProductDeleteCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="100"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" tableViewCell="VUj-CN-Urd" id="ggG-db-rdn">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="99"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_default_adimage.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="qGE-DL-ksk">
+                        <rect key="frame" x="8" y="19" width="80" height="60"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="80" id="fXM-FO-D8j"/>
+                            <constraint firstAttribute="height" constant="60" id="wsN-Rw-VZ3"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="哀家套餐122" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KhN-lP-Tim">
+                        <rect key="frame" x="96" y="19" width="154" height="22"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                        <color key="textColor" red="0.1215686275" green="0.12941176469999999" blue="0.14117647059999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="¥123" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l6S-5W-pQx">
+                        <rect key="frame" x="96" y="58" width="154" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.83071848999999998" green="0.099510383169999994" blue="0.1131396925" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bg0-R1-B0G">
+                        <rect key="frame" x="275" y="35" width="30" height="30"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="30" id="W0z-lC-m2b"/>
+                            <constraint firstAttribute="width" constant="30" id="nQT-y5-yjr"/>
+                        </constraints>
+                        <state key="normal" title="Button" image="checkbox_delete_normal"/>
+                        <state key="selected" image="checkbox_delete_pressed"/>
+                    </button>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TjB-Pn-atU">
+                        <rect key="frame" x="260" y="5" width="1" height="89"/>
+                        <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.93725490199999995" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="1" id="Cgy-Sm-wEZ"/>
+                            <constraint firstAttribute="height" constant="89" id="cfl-Of-zR4"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="leadingMargin" secondItem="qGE-DL-ksk" secondAttribute="leading" id="3CF-KW-zcn"/>
+                    <constraint firstItem="KhN-lP-Tim" firstAttribute="leading" secondItem="ggG-db-rdn" secondAttribute="leadingMargin" constant="88" id="5oa-cz-mce"/>
+                    <constraint firstItem="l6S-5W-pQx" firstAttribute="leading" secondItem="qGE-DL-ksk" secondAttribute="trailing" constant="8" id="76N-Xe-Wjt"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="l6S-5W-pQx" secondAttribute="bottom" constant="12" id="AmT-Lg-KTu"/>
+                    <constraint firstItem="TjB-Pn-atU" firstAttribute="leading" secondItem="KhN-lP-Tim" secondAttribute="trailing" constant="10" id="me8-cK-7Oa"/>
+                    <constraint firstItem="qGE-DL-ksk" firstAttribute="centerY" secondItem="ggG-db-rdn" secondAttribute="centerY" id="oaq-dd-zDO"/>
+                    <constraint firstItem="bg0-R1-B0G" firstAttribute="leading" secondItem="TjB-Pn-atU" secondAttribute="trailing" constant="14" id="p4s-1i-eB7"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="bg0-R1-B0G" secondAttribute="trailing" constant="7" id="p6k-at-5OQ"/>
+                    <constraint firstItem="KhN-lP-Tim" firstAttribute="leading" secondItem="qGE-DL-ksk" secondAttribute="trailing" constant="8" id="q9V-VP-97L"/>
+                    <constraint firstItem="TjB-Pn-atU" firstAttribute="centerY" secondItem="ggG-db-rdn" secondAttribute="centerY" id="t8K-U9-Nyl"/>
+                    <constraint firstItem="KhN-lP-Tim" firstAttribute="top" secondItem="ggG-db-rdn" secondAttribute="topMargin" constant="11" id="uQX-DN-VKW"/>
+                    <constraint firstItem="TjB-Pn-atU" firstAttribute="leading" secondItem="l6S-5W-pQx" secondAttribute="trailing" constant="10" id="vPN-50-DxQ"/>
+                    <constraint firstItem="bg0-R1-B0G" firstAttribute="centerY" secondItem="ggG-db-rdn" secondAttribute="centerY" id="wZt-OQ-G25"/>
+                </constraints>
+                <variation key="default">
+                    <mask key="constraints">
+                        <exclude reference="5oa-cz-mce"/>
+                    </mask>
+                </variation>
+            </tableViewCellContentView>
+            <inset key="separatorInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+            <point key="canvasLocation" x="218" y="192"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="checkbox_delete_normal" width="40" height="40"/>
+        <image name="checkbox_delete_pressed" width="40" height="40"/>
+        <image name="ic_default_adimage.jpg" width="289" height="220"/>
+    </resources>
+</document>

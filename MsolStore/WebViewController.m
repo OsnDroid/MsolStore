@@ -8,15 +8,26 @@
 
 #import "WebViewController.h"
 #import <JavaScriptCore/JavaScriptCore.h> 
+#import "UIScrollView+EmptyDataSet.h"
 
 static NSString *url1 = @"http://ah.189.cn/jsp/Change4GCard/wapPage/managerchangCard4Wap01.jsp?dev_code=%@&storeId=&hallName=&resource=2&tjrNbr=";
 static NSString *url2 = @"http://ah.189.cn/jsp/Change4GCard/wapPage/activityCard4Wap.jsp?dev_code=%@&resource=2";
 
-@interface WebViewController ()
+@interface WebViewController ()<DZNEmptyDataSetSource, DZNEmptyDataSetDelegate>
+
+@property (nonatomic, getter=didFailLoading) BOOL failedLoading;
 
 @end
 
 @implementation WebViewController
+
+-(id)initWithUrl:(NSString *)url {
+    self = [super self];
+    if (self) {
+        _url = url;
+    }
+    return self;
+}
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
@@ -30,6 +41,8 @@ static NSString *url2 = @"http://ah.189.cn/jsp/Change4GCard/wapPage/activityCard
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.webView.scrollView.emptyDataSetSource = self;
+    self.webView.scrollView.emptyDataSetDelegate = self;
     self.label_bottom.hidden = YES;
     if ([_url hasPrefix:@"http"]) {
         self.title = @"加载中...";
@@ -65,6 +78,71 @@ static NSString *url2 = @"http://ah.189.cn/jsp/Change4GCard/wapPage/activityCard
     
 }
 
+#pragma mark - DZNEmptyDataSetSource
+
+- (NSAttributedString *)descriptionForEmptyDataSet:(UIScrollView *)scrollView
+{
+    if (self.webView.isLoading || !self.didFailLoading) {
+        return nil;
+    }
+    
+    NSString *text = @"页面无法打开，请检查网络";
+    UIColor *textColor = RGBA(125, 127, 127, 1.0);
+    
+    NSMutableDictionary *attributes = [NSMutableDictionary new];
+    
+    NSMutableParagraphStyle *paragraph = [NSMutableParagraphStyle new];
+    paragraph.lineBreakMode = NSLineBreakByWordWrapping;
+    paragraph.alignment = NSTextAlignmentCenter;
+    paragraph.lineSpacing = 2.0;
+    
+    [attributes setObject:textColor forKey:NSForegroundColorAttributeName];
+    [attributes setObject:paragraph forKey:NSParagraphStyleAttributeName];
+    
+    return [[NSMutableAttributedString alloc] initWithString:text attributes:attributes];
+}
+
+#pragma mark - DZNEmptyDataSetDelegate
+
+- (BOOL)emptyDataSetShouldDisplay:(UIScrollView *)scrollView
+{
+    return YES;
+}
+
+- (BOOL)emptyDataSetShouldAllowTouch:(UIScrollView *)scrollView
+{
+    return YES;
+}
+
+- (BOOL)emptyDataSetShouldAllowScroll:(UIScrollView *)scrollView
+{
+    return YES;
+}
+
+- (UIImage *)imageForEmptyDataSet:(UIScrollView *)scrollView
+{
+    return [UIImage imageNamed:@"placeholder_remote"];
+}
+
+
+#pragma mark - UIWebViewDelegate methods
+
+- (BOOL)webView:(UIWebView *)webView shouldStartLoadWithRequest:(NSURLRequest *)request navigationType:(UIWebViewNavigationType)navigationType
+{
+    self.failedLoading = NO;
+    
+    return YES;
+}
+
+- (void)webView:(UIWebView *)webView didFailLoadWithError:(NSError *)error
+{
+    [UIApplication sharedApplication].networkActivityIndicatorVisible = NO;
+    
+    self.failedLoading = YES;
+    
+    [self.webView.scrollView reloadEmptyDataSet];
+}
+
 
 -(void)webViewDidFinishLoad:(UIWebView *)webView{
     [UIApplication sharedApplication].networkActivityIndicatorVisible = NO;
@@ -74,6 +152,9 @@ static NSString *url2 = @"http://ah.189.cn/jsp/Change4GCard/wapPage/activityCard
         
     });
     self.title = title;
+    if (self.orderId) {
+        [webView stringByEvaluatingJavaScriptFromString:[NSString stringWithFormat:@"document.getElementById('p_orderid').innerText='%@'",self.orderId,nil]];
+    }
     
     JSContext *context=[webView valueForKeyPath:@"documentView.webView.mainFrame.javaScriptContext"];
     Account *account = [UserInfoManager getAccount];
@@ -82,13 +163,12 @@ static NSString *url2 = @"http://ah.189.cn/jsp/Change4GCard/wapPage/activityCard
     //其中test1就是js的方法名称，赋给是一个block 里面是iOS代码
     //此方法最终将打印出所有接收到的参数，js参数是不固定的 我们测试一下就知道
     context[@"goUrl1"] = ^() {
-        MyLog([NSString stringWithFormat:url1,@"999"],nil);
         WebViewController *ctrl = [[WebViewController alloc] initWithUrl:[NSString stringWithFormat:url1,account.fourG]];
         self.hidesBottomBarWhenPushed = YES;
         [self.navigationController pushViewController:ctrl animated:YES];
     };
+    
     context[@"goUrl2"] = ^() {
-        MyLog([NSString stringWithFormat:url2,@"9991"],nil);
         WebViewController *ctrl = [[WebViewController alloc] initWithUrl:[NSString stringWithFormat:url2,account.fourG]];
         self.hidesBottomBarWhenPushed = YES;
         [self.navigationController pushViewController:ctrl animated:YES];
@@ -100,11 +180,30 @@ static NSString *url2 = @"http://ah.189.cn/jsp/Change4GCard/wapPage/activityCard
         self.hidesBottomBarWhenPushed = YES;
         [self.navigationController pushViewController:ctrl animated:YES];
     };
+    
+    
     context[@"goUrl4"] = ^() {
         dispatch_async(dispatch_get_main_queue(), ^{
             [self prop];
         });
     };
+    
+    context[@"getAddress"] = ^() {
+        NSArray *args = [JSContext currentArguments];
+        for (id obj in args) {
+            MyLog(@"%@",obj,nil);
+            dispatch_async(dispatch_get_main_queue(), ^{
+                NSString *address = [NSString stringWithFormat:@"%@",obj,nil];
+                if (self.addressDelegate) {
+                    [self.addressDelegate address:address];
+                }
+                [self.navigationController popViewControllerAnimated:YES];
+            });
+           
+            break;
+        }
+    };
+    
 
 //    self.label_bottom.hidden = self.isBottm;
 }
@@ -126,12 +225,6 @@ static NSString *url2 = @"http://ah.189.cn/jsp/Change4GCard/wapPage/activityCard
     // Dispose of any resources that can be recreated.
 }
 
--(id)initWithUrl:(NSString *)url {
-    self = [super self];
-    if (self) {
-        _url = url;
-    }
-    return self;
-}
+
 
 @end

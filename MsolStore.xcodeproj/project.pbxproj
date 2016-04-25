@@ -22,6 +22,29 @@
 		3F493D891CCB852100C54AFE /* ic_default_adimage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F493D881CCB852100C54AFE /* ic_default_adimage.jpg */; };
 		3F493D8D1CCB866A00C54AFE /* HandleOrdersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F493D8B1CCB866A00C54AFE /* HandleOrdersViewController.m */; };
 		3F493D8E1CCB866A00C54AFE /* HandleOrdersViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F493D8C1CCB866A00C54AFE /* HandleOrdersViewController.xib */; };
+		3F493D911CCCB0BF00C54AFE /* IcView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F493D901CCCB0BF00C54AFE /* IcView.m */; };
+		3F493D951CCCB2E700C54AFE /* ProductListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F493D931CCCB2E700C54AFE /* ProductListViewController.m */; };
+		3F493D961CCCB2E700C54AFE /* ProductListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F493D941CCCB2E700C54AFE /* ProductListViewController.xib */; };
+		3F493D9A1CCCB2FD00C54AFE /* ProductListAddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F493D981CCCB2FD00C54AFE /* ProductListAddViewController.m */; };
+		3F493D9B1CCCB2FD00C54AFE /* ProductListAddViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F493D991CCCB2FD00C54AFE /* ProductListAddViewController.xib */; };
+		3F493D9F1CCCB32A00C54AFE /* ProductDeleteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F493D9D1CCCB32A00C54AFE /* ProductDeleteViewController.m */; };
+		3F493DA01CCCB32A00C54AFE /* ProductDeleteViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F493D9E1CCCB32A00C54AFE /* ProductDeleteViewController.xib */; };
+		3F493DA31CCCB4B700C54AFE /* ProductService.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F493DA21CCCB4B700C54AFE /* ProductService.m */; };
+		3F493DA61CCCC66F00C54AFE /* ICZButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F493DA51CCCC66F00C54AFE /* ICZButton.m */; };
+		3F493DA91CCDBBD700C54AFE /* UIScrollView+EmptyDataSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F493DA81CCDBBD700C54AFE /* UIScrollView+EmptyDataSet.m */; };
+		3F493DAB1CCDC37200C54AFE /* Empty.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F493DAA1CCDC37200C54AFE /* Empty.xcassets */; };
+		3F493DAD1CCDF58E00C54AFE /* CityAreas.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F493DAC1CCDF58E00C54AFE /* CityAreas.plist */; };
+		3F493DB91CCE153200C54AFE /* ProvincesAndCities.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F493DB51CCE153200C54AFE /* ProvincesAndCities.plist */; };
+		3F493DBA1CCE153200C54AFE /* LocationSheetView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F493DB71CCE153200C54AFE /* LocationSheetView.m */; };
+		3F493DBB1CCE153200C54AFE /* LocationSheetView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F493DB81CCE153200C54AFE /* LocationSheetView.xib */; };
+		3F493DBF1CCE154700C54AFE /* IcLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F493DBD1CCE154700C54AFE /* IcLocation.m */; };
+		3F493DC31CCE1EE900C54AFE /* CityAreaCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F493DC11CCE1EE900C54AFE /* CityAreaCell.m */; };
+		3F493DC41CCE1EE900C54AFE /* CityAreaCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F493DC21CCE1EE900C54AFE /* CityAreaCell.xib */; };
+		3F493DC71CCE250300C54AFE /* SBCBService.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F493DC61CCE250300C54AFE /* SBCBService.m */; };
+		3F493DCB1CCE316E00C54AFE /* ProductAddCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F493DC91CCE316E00C54AFE /* ProductAddCell.m */; };
+		3F493DCC1CCE316E00C54AFE /* ProductAddCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F493DCA1CCE316E00C54AFE /* ProductAddCell.xib */; };
+		3F493DD01CCE3AD900C54AFE /* ProductDeleteCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F493DCE1CCE3AD900C54AFE /* ProductDeleteCell.m */; };
+		3F493DD11CCE3AD900C54AFE /* ProductDeleteCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F493DCF1CCE3AD900C54AFE /* ProductDeleteCell.xib */; };
 		3F642BA61CC5BF90006C9064 /* UIPlaceholderTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F642BA51CC5BF90006C9064 /* UIPlaceholderTextView.m */; };
 		3F642BA81CC5C3C9006C9064 /* HomeItem.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F642BA71CC5C3C9006C9064 /* HomeItem.plist */; };
 		3F642BAC1CC5C682006C9064 /* HomeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F642BAA1CC5C682006C9064 /* HomeCell.m */; };
@@ -236,6 +259,43 @@
 		3F493D8A1CCB866A00C54AFE /* HandleOrdersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HandleOrdersViewController.h; sourceTree = "<group>"; };
 		3F493D8B1CCB866A00C54AFE /* HandleOrdersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HandleOrdersViewController.m; sourceTree = "<group>"; };
 		3F493D8C1CCB866A00C54AFE /* HandleOrdersViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HandleOrdersViewController.xib; sourceTree = "<group>"; };
+		3F493D8F1CCCB0BF00C54AFE /* IcView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IcView.h; sourceTree = "<group>"; };
+		3F493D901CCCB0BF00C54AFE /* IcView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IcView.m; sourceTree = "<group>"; };
+		3F493D921CCCB2E700C54AFE /* ProductListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductListViewController.h; sourceTree = "<group>"; };
+		3F493D931CCCB2E700C54AFE /* ProductListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductListViewController.m; sourceTree = "<group>"; };
+		3F493D941CCCB2E700C54AFE /* ProductListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProductListViewController.xib; sourceTree = "<group>"; };
+		3F493D971CCCB2FD00C54AFE /* ProductListAddViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductListAddViewController.h; sourceTree = "<group>"; };
+		3F493D981CCCB2FD00C54AFE /* ProductListAddViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductListAddViewController.m; sourceTree = "<group>"; };
+		3F493D991CCCB2FD00C54AFE /* ProductListAddViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProductListAddViewController.xib; sourceTree = "<group>"; };
+		3F493D9C1CCCB32A00C54AFE /* ProductDeleteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductDeleteViewController.h; sourceTree = "<group>"; };
+		3F493D9D1CCCB32A00C54AFE /* ProductDeleteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductDeleteViewController.m; sourceTree = "<group>"; };
+		3F493D9E1CCCB32A00C54AFE /* ProductDeleteViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProductDeleteViewController.xib; sourceTree = "<group>"; };
+		3F493DA11CCCB4B700C54AFE /* ProductService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductService.h; sourceTree = "<group>"; };
+		3F493DA21CCCB4B700C54AFE /* ProductService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductService.m; sourceTree = "<group>"; };
+		3F493DA41CCCC66F00C54AFE /* ICZButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICZButton.h; sourceTree = "<group>"; };
+		3F493DA51CCCC66F00C54AFE /* ICZButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICZButton.m; sourceTree = "<group>"; };
+		3F493DA71CCDBBD700C54AFE /* UIScrollView+EmptyDataSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+EmptyDataSet.h"; sourceTree = "<group>"; };
+		3F493DA81CCDBBD700C54AFE /* UIScrollView+EmptyDataSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+EmptyDataSet.m"; sourceTree = "<group>"; };
+		3F493DAA1CCDC37200C54AFE /* Empty.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Empty.xcassets; sourceTree = "<group>"; };
+		3F493DAC1CCDF58E00C54AFE /* CityAreas.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CityAreas.plist; sourceTree = "<group>"; };
+		3F493DB51CCE153200C54AFE /* ProvincesAndCities.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ProvincesAndCities.plist; sourceTree = "<group>"; };
+		3F493DB61CCE153200C54AFE /* LocationSheetView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationSheetView.h; sourceTree = "<group>"; };
+		3F493DB71CCE153200C54AFE /* LocationSheetView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationSheetView.m; sourceTree = "<group>"; };
+		3F493DB81CCE153200C54AFE /* LocationSheetView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LocationSheetView.xib; sourceTree = "<group>"; };
+		3F493DBC1CCE154700C54AFE /* IcLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IcLocation.h; sourceTree = "<group>"; };
+		3F493DBD1CCE154700C54AFE /* IcLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IcLocation.m; sourceTree = "<group>"; };
+		3F493DC01CCE1EE900C54AFE /* CityAreaCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CityAreaCell.h; sourceTree = "<group>"; };
+		3F493DC11CCE1EE900C54AFE /* CityAreaCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CityAreaCell.m; sourceTree = "<group>"; };
+		3F493DC21CCE1EE900C54AFE /* CityAreaCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CityAreaCell.xib; sourceTree = "<group>"; };
+		3F493DC51CCE250300C54AFE /* SBCBService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBCBService.h; sourceTree = "<group>"; };
+		3F493DC61CCE250300C54AFE /* SBCBService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBCBService.m; sourceTree = "<group>"; };
+		3F493DC81CCE316E00C54AFE /* ProductAddCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductAddCell.h; sourceTree = "<group>"; };
+		3F493DC91CCE316E00C54AFE /* ProductAddCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductAddCell.m; sourceTree = "<group>"; };
+		3F493DCA1CCE316E00C54AFE /* ProductAddCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProductAddCell.xib; sourceTree = "<group>"; };
+		3F493DCD1CCE3AD900C54AFE /* ProductDeleteCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductDeleteCell.h; sourceTree = "<group>"; };
+		3F493DCE1CCE3AD900C54AFE /* ProductDeleteCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductDeleteCell.m; sourceTree = "<group>"; };
+		3F493DCF1CCE3AD900C54AFE /* ProductDeleteCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProductDeleteCell.xib; sourceTree = "<group>"; };
+		3F493DD21CCE485100C54AFE /* ProductDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductDelegate.h; sourceTree = "<group>"; };
 		3F642BA41CC5BF90006C9064 /* UIPlaceholderTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIPlaceholderTextView.h; sourceTree = "<group>"; };
 		3F642BA51CC5BF90006C9064 /* UIPlaceholderTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIPlaceholderTextView.m; sourceTree = "<group>"; };
 		3F642BA71CC5C3C9006C9064 /* HomeItem.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = HomeItem.plist; sourceTree = "<group>"; };
@@ -589,12 +649,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3F493DBE1CCE154700C54AFE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3F493DBC1CCE154700C54AFE /* IcLocation.h */,
+				3F493DBD1CCE154700C54AFE /* IcLocation.m */,
+			);
+			name = Model;
+			path = "../../../../Downloads/iOS-master/DatastreamBank/DatastreamBank";
+			sourceTree = "<group>";
+		};
 		3F642BB11CC60D49006C9064 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				3F493DBE1CCE154700C54AFE /* Model */,
+				3F493DB51CCE153200C54AFE /* ProvincesAndCities.plist */,
+				3F493DB61CCE153200C54AFE /* LocationSheetView.h */,
+				3F493DB71CCE153200C54AFE /* LocationSheetView.m */,
+				3F493DB81CCE153200C54AFE /* LocationSheetView.xib */,
 				3F642BB21CC60D83006C9064 /* WebViewController.h */,
 				3F642BB31CC60D83006C9064 /* WebViewController.m */,
 				3F642BB41CC60D83006C9064 /* WebViewController.xib */,
+				3F493DAC1CCDF58E00C54AFE /* CityAreas.plist */,
 			);
 			name = Common;
 			sourceTree = "<group>";
@@ -636,6 +712,8 @@
 		3FC258151CC8C93400865730 /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				3F493DA71CCDBBD700C54AFE /* UIScrollView+EmptyDataSet.h */,
+				3F493DA81CCDBBD700C54AFE /* UIScrollView+EmptyDataSet.m */,
 				3FC258161CC8C95B00865730 /* UIImage+RoundedRectImage.h */,
 				3FC258171CC8C95B00865730 /* UIImage+RoundedRectImage.m */,
 				3FFC6B931CC758D9003E0667 /* NSString+Phone.h */,
@@ -769,6 +847,9 @@
 				3F493D8A1CCB866A00C54AFE /* HandleOrdersViewController.h */,
 				3F493D8B1CCB866A00C54AFE /* HandleOrdersViewController.m */,
 				3F493D8C1CCB866A00C54AFE /* HandleOrdersViewController.xib */,
+				3F493DC01CCE1EE900C54AFE /* CityAreaCell.h */,
+				3F493DC11CCE1EE900C54AFE /* CityAreaCell.m */,
+				3F493DC21CCE1EE900C54AFE /* CityAreaCell.xib */,
 			);
 			name = Broadband;
 			sourceTree = "<group>";
@@ -776,6 +857,22 @@
 		3FC2587E1CCA0E8000865730 /* Product */ = {
 			isa = PBXGroup;
 			children = (
+				3F493D921CCCB2E700C54AFE /* ProductListViewController.h */,
+				3F493D931CCCB2E700C54AFE /* ProductListViewController.m */,
+				3F493D941CCCB2E700C54AFE /* ProductListViewController.xib */,
+				3F493D971CCCB2FD00C54AFE /* ProductListAddViewController.h */,
+				3F493D981CCCB2FD00C54AFE /* ProductListAddViewController.m */,
+				3F493D991CCCB2FD00C54AFE /* ProductListAddViewController.xib */,
+				3F493D9C1CCCB32A00C54AFE /* ProductDeleteViewController.h */,
+				3F493D9D1CCCB32A00C54AFE /* ProductDeleteViewController.m */,
+				3F493D9E1CCCB32A00C54AFE /* ProductDeleteViewController.xib */,
+				3F493DC81CCE316E00C54AFE /* ProductAddCell.h */,
+				3F493DC91CCE316E00C54AFE /* ProductAddCell.m */,
+				3F493DCA1CCE316E00C54AFE /* ProductAddCell.xib */,
+				3F493DCD1CCE3AD900C54AFE /* ProductDeleteCell.h */,
+				3F493DCE1CCE3AD900C54AFE /* ProductDeleteCell.m */,
+				3F493DCF1CCE3AD900C54AFE /* ProductDeleteCell.xib */,
+				3F493DD21CCE485100C54AFE /* ProductDelegate.h */,
 			);
 			name = Product;
 			sourceTree = "<group>";
@@ -808,6 +905,7 @@
 				3FC776EA1CC0851C00F52B16 /* AppDelegate.h */,
 				3FC776EB1CC0851C00F52B16 /* AppDelegate.m */,
 				3FC776F31CC0851C00F52B16 /* Assets.xcassets */,
+				3F493DAA1CCDC37200C54AFE /* Empty.xcassets */,
 				3FC777241CC097DA00F52B16 /* Src */,
 				3FC776E71CC0851C00F52B16 /* Supporting Files */,
 			);
@@ -989,6 +1087,10 @@
 				3FDF90B21CC4BABE005EFA6A /* IcButton.m */,
 				3F642BA41CC5BF90006C9064 /* UIPlaceholderTextView.h */,
 				3F642BA51CC5BF90006C9064 /* UIPlaceholderTextView.m */,
+				3F493D8F1CCCB0BF00C54AFE /* IcView.h */,
+				3F493D901CCCB0BF00C54AFE /* IcView.m */,
+				3F493DA41CCCC66F00C54AFE /* ICZButton.h */,
+				3F493DA51CCCC66F00C54AFE /* ICZButton.m */,
 			);
 			name = CustomView;
 			sourceTree = "<group>";
@@ -1318,6 +1420,10 @@
 				3F493D741CCB51FF00C54AFE /* BBHService.m */,
 				3F493D761CCB69B000C54AFE /* BroadbandService.h */,
 				3F493D771CCB69B000C54AFE /* BroadbandService.m */,
+				3F493DA11CCCB4B700C54AFE /* ProductService.h */,
+				3F493DA21CCCB4B700C54AFE /* ProductService.m */,
+				3F493DC51CCE250300C54AFE /* SBCBService.h */,
+				3F493DC61CCE250300C54AFE /* SBCBService.m */,
 			);
 			name = NetService;
 			sourceTree = "<group>";
@@ -1446,8 +1552,11 @@
 				3F642BA81CC5C3C9006C9064 /* HomeItem.plist in Resources */,
 				3F642BEB1CC62083006C9064 /* ResetPasswordViewController.xib in Resources */,
 				3FE763DF1CC4D39E00235F4F /* MyProfileViewController.xib in Resources */,
+				3F493DAD1CCDF58E00C54AFE /* CityAreas.plist in Resources */,
+				3F493DC41CCE1EE900C54AFE /* CityAreaCell.xib in Resources */,
 				3F642BD31CC61598006C9064 /* jihuo.png in Resources */,
 				3FC258521CC9F77700865730 /* TencentOpenApi_IOS_Bundle.bundle in Resources */,
+				3F493DB91CCE153200C54AFE /* ProvincesAndCities.plist in Resources */,
 				3F493D891CCB852100C54AFE /* ic_default_adimage.jpg in Resources */,
 				3F642BD11CC61598006C9064 /* add.png in Resources */,
 				3FDF90B51CC4C2A3005EFA6A /* MyProfileInfo.plist in Resources */,
@@ -1455,9 +1564,12 @@
 				3FC258561CC9F77700865730 /* read_me.txt in Resources */,
 				3FC2587C1CCA0E6A00865730 /* BusinesshallChangeViewController.xib in Resources */,
 				3F493D7D1CCB6B3100C54AFE /* BroadbandListViewController.xib in Resources */,
+				3F493DBB1CCE153200C54AFE /* LocationSheetView.xib in Resources */,
 				3F642BE61CC6206B006C9064 /* LoginViewController.xib in Resources */,
 				3F642BD21CC61598006C9064 /* huanka.png in Resources */,
 				3F642BD01CC61598006C9064 /* index.css in Resources */,
+				3F493DA01CCCB32A00C54AFE /* ProductDeleteViewController.xib in Resources */,
+				3F493DAB1CCDC37200C54AFE /* Empty.xcassets in Resources */,
 				3F642BCE1CC61598006C9064 /* 3up4.css in Resources */,
 				3FE763E41CC4D8C600235F4F /* FeedBackViewController.xib in Resources */,
 				3F642BE01CC61598006C9064 /* success.html in Resources */,
@@ -1474,6 +1586,8 @@
 				3F493D6D1CCA2A4100C54AFE /* BusinesshallCell.xib in Resources */,
 				3F642BD81CC61598006C9064 /* paychaxun_but_04.png in Resources */,
 				3F493D721CCA2EC700C54AFE /* BroadbandMainViewController.xib in Resources */,
+				3F493DD11CCE3AD900C54AFE /* ProductDeleteCell.xib in Resources */,
+				3F493D9B1CCCB2FD00C54AFE /* ProductListAddViewController.xib in Resources */,
 				3F642BDB1CC61598006C9064 /* map.css in Resources */,
 				3FC776F21CC0851C00F52B16 /* Main.storyboard in Resources */,
 				3F642BB61CC60D83006C9064 /* WebViewController.xib in Resources */,
@@ -1483,6 +1597,8 @@
 				3FC258541CC9F77700865730 /* WeiboSDK.bundle in Resources */,
 				3FE764341CC4E65000235F4F /* MJRefresh.bundle in Resources */,
 				3FDF90A61CC47193005EFA6A /* mineitem.plist in Resources */,
+				3F493D961CCCB2E700C54AFE /* ProductListViewController.xib in Resources */,
+				3F493DCC1CCE316E00C54AFE /* ProductAddCell.xib in Resources */,
 				3F642BDF1CC61598006C9064 /* ShareSDK.xml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1519,16 +1635,20 @@
 				3F642BE51CC6206B006C9064 /* LoginViewController.m in Sources */,
 				3FFC6BC91CC77039003E0667 /* SDWebImageDecoder.m in Sources */,
 				3FDF90B91CC4C4A5005EFA6A /* MyProfileViewController.m in Sources */,
+				3F493DBA1CCE153200C54AFE /* LocationSheetView.m in Sources */,
 				3FE7648D1CC4E67900235F4F /* AFNetworkReachabilityManager.m in Sources */,
 				3FE764561CC4E65D00235F4F /* MJPropertyType.m in Sources */,
+				3F493DA91CCDBBD700C54AFE /* UIScrollView+EmptyDataSet.m in Sources */,
 				3FE764511CC4E65D00235F4F /* MJDictionaryCache.m in Sources */,
 				3FE764531CC4E65D00235F4F /* MJFoundation.m in Sources */,
 				3FC2581B1CC8CA1700865730 /* IcQRCode.m in Sources */,
 				3FE7648A1CC4E67900235F4F /* AFHTTPRequestOperation.m in Sources */,
 				3FFC6BD21CC77039003E0667 /* UIImageView+HighlightedWebCache.m in Sources */,
 				3FE763F21CC4E63900235F4F /* UIView+ClickActions.m in Sources */,
+				3F493D9F1CCCB32A00C54AFE /* ProductDeleteViewController.m in Sources */,
 				3FE763F31CC4E63900235F4F /* UIViewExt.m in Sources */,
 				3FC258181CC8C95B00865730 /* UIImage+RoundedRectImage.m in Sources */,
+				3F493D9A1CCCB2FD00C54AFE /* ProductListAddViewController.m in Sources */,
 				3FE764711CC4E67300235F4F /* UIButton+AFNetworking.m in Sources */,
 				3F642BFC1CC664E0006C9064 /* WXHLGlobalUICommon.m in Sources */,
 				3FFC6BDB1CC79CEE003E0667 /* LoginService.m in Sources */,
@@ -1541,6 +1661,7 @@
 				3FFC6BCF1CC77039003E0667 /* UIImage+GIF.m in Sources */,
 				3FFC6BD41CC77039003E0667 /* UIView+WebCacheOperation.m in Sources */,
 				3FE764551CC4E65D00235F4F /* MJPropertyKey.m in Sources */,
+				3F493DCB1CCE316E00C54AFE /* ProductAddCell.m in Sources */,
 				3F642BB51CC60D83006C9064 /* WebViewController.m in Sources */,
 				3FE763F41CC4E63900235F4F /* UIUtils.m in Sources */,
 				3FFC6BC71CC77039003E0667 /* SDImageCache.m in Sources */,
@@ -1559,6 +1680,7 @@
 				3FE764571CC4E65D00235F4F /* NSObject+MJClass.m in Sources */,
 				3F493D8D1CCB866A00C54AFE /* HandleOrdersViewController.m in Sources */,
 				3FC776E91CC0851C00F52B16 /* main.m in Sources */,
+				3F493DC31CCE1EE900C54AFE /* CityAreaCell.m in Sources */,
 				3FE764731CC4E67300235F4F /* UIProgressView+AFNetworking.m in Sources */,
 				3F642BAC1CC5C682006C9064 /* HomeCell.m in Sources */,
 				3FE7648C1CC4E67900235F4F /* AFHTTPSessionManager.m in Sources */,
@@ -1568,11 +1690,13 @@
 				3FE764381CC4E65000235F4F /* UIView+MJExtension.m in Sources */,
 				3FE7646E1CC4E67300235F4F /* AFNetworkActivityIndicatorManager.m in Sources */,
 				3FFC6BCD1CC77039003E0667 /* SDWebImagePrefetcher.m in Sources */,
+				3F493D951CCCB2E700C54AFE /* ProductListViewController.m in Sources */,
 				3F642BEA1CC62083006C9064 /* ResetPasswordViewController.m in Sources */,
 				3FC777321CC09B3400F52B16 /* OrderViewController.m in Sources */,
 				3FFC6BC61CC77039003E0667 /* NSData+ImageContentType.m in Sources */,
 				3FE764331CC4E65000235F4F /* MJRefreshStateHeader.m in Sources */,
 				3FFC6B961CC758D9003E0667 /* UIDeviceHardware.m in Sources */,
+				3F493DA61CCCC66F00C54AFE /* ICZButton.m in Sources */,
 				3FE764701CC4E67300235F4F /* UIAlertView+AFNetworking.m in Sources */,
 				3FE7642F1CC4E65000235F4F /* MJRefreshBackNormalFooter.m in Sources */,
 				3FE764371CC4E65000235F4F /* UIScrollView+MJRefresh.m in Sources */,
@@ -1580,6 +1704,7 @@
 				3FFC6BCB1CC77039003E0667 /* SDWebImageDownloaderOperation.m in Sources */,
 				3FE7642C1CC4E65000235F4F /* MJRefreshAutoNormalFooter.m in Sources */,
 				3FC2587B1CCA0E6A00865730 /* BusinesshallChangeViewController.m in Sources */,
+				3F493DA31CCCB4B700C54AFE /* ProductService.m in Sources */,
 				3FE763E31CC4D8C600235F4F /* FeedBackViewController.m in Sources */,
 				3FE764321CC4E65000235F4F /* MJRefreshNormalHeader.m in Sources */,
 				3FE7642D1CC4E65000235F4F /* MJRefreshAutoStateFooter.m in Sources */,
@@ -1595,6 +1720,7 @@
 				3FE764351CC4E65000235F4F /* MJRefreshConst.m in Sources */,
 				3FE7642B1CC4E65000235F4F /* MJRefreshAutoGifFooter.m in Sources */,
 				3FE764291CC4E65000235F4F /* MJRefreshFooter.m in Sources */,
+				3F493D911CCCB0BF00C54AFE /* IcView.m in Sources */,
 				3FE7648F1CC4E67900235F4F /* AFURLConnectionOperation.m in Sources */,
 				3FFC6BCA1CC77039003E0667 /* SDWebImageDownloader.m in Sources */,
 				3FE764721CC4E67300235F4F /* UIImageView+AFNetworking.m in Sources */,
@@ -1606,11 +1732,14 @@
 				3FC7772C1CC098DD00F52B16 /* BaseNavigationController.m in Sources */,
 				3FFC6B971CC758D9003E0667 /* NSString+Phone.m in Sources */,
 				3FE7642A1CC4E65000235F4F /* MJRefreshHeader.m in Sources */,
+				3F493DC71CCE250300C54AFE /* SBCBService.m in Sources */,
 				3FE764901CC4E67900235F4F /* AFURLRequestSerialization.m in Sources */,
 				3FFC6BC51CC77039003E0667 /* MKAnnotationView+WebCache.m in Sources */,
 				3FE764541CC4E65D00235F4F /* MJProperty.m in Sources */,
 				3FE764741CC4E67300235F4F /* UIRefreshControl+AFNetworking.m in Sources */,
 				3FC7772F1CC09B0100F52B16 /* HomeViewController.m in Sources */,
+				3F493DBF1CCE154700C54AFE /* IcLocation.m in Sources */,
+				3F493DD01CCE3AD900C54AFE /* ProductDeleteCell.m in Sources */,
 				3FC258761CCA0E4700865730 /* BusineshallViewController.m in Sources */,
 				3FDF90B31CC4BABE005EFA6A /* IcButton.m in Sources */,
 				3FE764751CC4E67300235F4F /* UIWebView+AFNetworking.m in Sources */,

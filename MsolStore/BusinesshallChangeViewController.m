@@ -120,9 +120,7 @@
 }
 
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
-    // 取消选中高亮
-    // 取消选中高亮
-    [self.tableView deselectRowAtIndexPath:[self.tableView indexPathForSelectedRow] animated:YES];
+
     if ([_selCell isEqual:[tableView cellForRowAtIndexPath:indexPath]]) {
         [[tableView cellForRowAtIndexPath:indexPath] setSelected:NO];
         _selCell = nil;

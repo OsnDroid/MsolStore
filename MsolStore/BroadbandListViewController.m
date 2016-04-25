@@ -126,10 +126,19 @@
     if ([self.method isEqualToString:@"broadband"]) {
         
         BroadbandPreViewController *ctrl = [[BroadbandPreViewController alloc] initWithUrl:[NSString stringWithFormat:kd_url,[dic objectForKey:@"id"]]];
+        ctrl.proudctId = (int)[dic objectForKey:@"id"];
+        ctrl.picUrl = [SERVICEURL_PIC stringByAppendingString:[dic objectForKey:@"product_img"]];
+        ctrl.productName = [dic objectForKey:@"product_name"];
+        ctrl.prudctType = @"宽带";
+        ctrl.proudctPrice = [NSString stringWithFormat:@"¥%@",[dic objectForKey:@"current_price"],nil];
         [self.navigationController pushViewController:ctrl animated:YES];
     } else {
-        
         BroadbandPreViewController *ctrl = [[BroadbandPreViewController alloc] initWithUrl:[NSString stringWithFormat:rh_url,[dic objectForKey:@"id"]]];
+        ctrl.proudctId = (int)[dic objectForKey:@"id"];
+        ctrl.picUrl = [SERVICEURL_PIC stringByAppendingString:[dic objectForKey:@"product_img"]];
+        ctrl.productName = [dic objectForKey:@"name"];
+        ctrl.prudctType = @"融合套餐";
+        ctrl.proudctPrice = [NSString stringWithFormat:@"¥%@",[dic objectForKey:@"current_price"],nil];
         [self.navigationController pushViewController:ctrl animated:YES];
     }
 }

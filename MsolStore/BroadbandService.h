@@ -13,4 +13,17 @@
 //获取列表
 -(void)getList:(NSString *) method;
 
+//提交订单
+-(void)submitOrder:(int) productId
+       productType:(NSString *)productType
+       name:(NSString *)name
+       linkeNum:(NSString *)linkeNum
+       city:(NSString *)city
+       area:(NSString *)area
+       address:(NSString *)address
+       cardId:(NSString *)cardId
+       resmarks:(NSString *)resmarks;
+
+
+
 @end

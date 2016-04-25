@@ -23,7 +23,7 @@
     _webView.delegate = self;
     [_webView loadRequest:request];
     [self showProgress:self.view content:@"正在加载"];
-}
+   }
 
 
 -(void)webViewDidFinishLoad:(UIWebView *)webView{
@@ -57,6 +57,11 @@
 - (IBAction)actionSubmit:(id)sender {
     
     HandleOrdersViewController *ctrl = [[HandleOrdersViewController alloc] init];
+    ctrl.proudctId = self.proudctId;
+    ctrl.picUrl = _picUrl;
+    ctrl.productName = _productName;
+    ctrl.prudctType = _prudctType;
+    ctrl.proudctPrice = _proudctPrice;
     [self.navigationController pushViewController:ctrl animated:YES];
 }
 @end

@@ -20,5 +20,11 @@
 
 - (IBAction)actionSubmit:(id)sender;
 
+@property (strong,nonatomic) NSString *picUrl;
+@property (assign,nonatomic) int proudctId;
+@property (strong,nonatomic) NSString *productName;
+@property (strong,nonatomic) NSString *prudctType;
+@property (strong,nonatomic) NSString *proudctPrice;
+
 
 @end

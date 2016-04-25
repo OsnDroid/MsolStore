@@ -7,7 +7,13 @@
 //
 
 #import "BaseViewController.h"
+@protocol AddressDelegate <NSObject>
 
+@optional
+
+-(void) address:(NSString *)adddres;
+
+@end
 
 @interface WebViewController : BaseViewController<UIWebViewDelegate>
 {
@@ -19,11 +25,15 @@
 
 @property (strong, nonatomic) IBOutlet UIWebView *webView;
 
+@property (strong, nonatomic) IBOutlet UILabel *label_bottom;
+
+
 @property (nonatomic,assign) BOOL isBottm;
 
 @property (nonatomic,assign) BOOL isShare;
 
+@property (nonatomic,assign) id<AddressDelegate> addressDelegate;
 
-@property (strong, nonatomic) IBOutlet UILabel *label_bottom;
+@property (nonatomic,strong) NSString *orderId;
 
 @end
